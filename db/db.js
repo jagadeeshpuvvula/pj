@@ -47,108 +47,101 @@ export default {
 		},
 	],
 	projects: {
-		web: [
+		Air_Quality : [
 			{
-				projectName: "Programming Diaries",
-				image: "images/programmingdiaries.png",
+				projectName: "Environmental justice - Pediatric asthma - Douglas County, NE",
 				summary:
-					"Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
-				preview: "https://programmingdiaries.herokuapp.com/",
+					"Evaluated the Role of social determinants of health in differential respiratory exposure and health outcomes among children.",
+				preview: "https://doi.org/10.1186/s12889-022-14964-2",
 				techStack: [
-					"Django",
-					"SQLite",
-					"Bootstrap",
-					"JavaScript",
-					"Heroku",
+					"SDoH",
+					"Pediatric asthma",
+					"Environmental justice",
+					"Bayesian spatial autocorrelation",
 				],
 			},
 			{
-				projectName: "Find Your Bank",
-				image: "images/findyourbank.png",
+				projectName: "Joint effect of air pollutants - Pediatric asthma",
 				summary:
-					"Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
-				preview: "https://clever-fermi-0d5d76.netlify.app",
-				techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
+					"Joint association between ambient air pollutant mixture and pediatric asthma exacerbations.",
+				preview: "https://doi.org/10.1097/EE9.0000000000000225",
+				techStack: ["Criteria pollutants", "Pollen & Mold", "gWQS", "qgcomp"],
 			},
 			{
-				projectName: "Web Portfolio",
-				image: "images/portfolio.png",
+				projectName: "Occupational respiratory exposure - Midwestern US",
 				summary:
-					"Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
-				preview: "https://github.com/vinaysomawat/Travographer-Portal",
-				techStack: ["HTML", "Bootstrap", "JavaScript"],
+					"Prevalence and Risk Factors for Pulmonary Conditions among Farmers and Ranchers in the Central United States.",
+				preview: "https://doi.org/10.1080/1059924X.2021.2025180",
+				techStack: ["Organic dust", "Farmers/Ranchers", "Survey data", "GEE"],
 			},
-			{
-				projectName: "Resume Builder",
-				image: "images/resume-builder.png",
-				summary:
-					"Browser based editor to build and download Resumes in a customizable templates.",
-				preview: "https://vinaysomawat.github.io/Resume-Builder",
-				techStack: ["HTML", "Bootstrap", "JavaScript"],
-			},
+
 		],
-		software: [
+		Climate_change: [
 			{
-				projectName: "Pizza Ordering ChatBot",
-				image: "images/pizzaorderchatbot.png",
+				projectName: "Extreme temperature - climate change - North Carolina",
 				summary:
-					"ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
+					"Estimating the Burden of Heat-Related Illness Morbidity Attributable to Anthropogenic Climate Change in North Carolina.",
 				preview:
-					"https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-				techStack: ["Dailogflow", "Firebase"],
+					"https://doi.org/10.1029/2022GH000636",
+				techStack: ["Anthropogenic climate change","Climate modeling: CCSM4, GFDL", "RCP4.5, RCP8.5", "GAM", "DLNM"],
 			},
 			{
-				projectName: "WhatsApp-Bot",
-				image: "images/whatsappbot.jpg",
+				projectName: "Heat waves - ER visits - North Carolina",
 				summary:
-					"Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-				preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-				techStack: ["Selenium", "Chrome Webdriver", "Python"],
+					"Evaluating the sensitivity of heat wave definitions among North Carolina physiographic regions.",
+				preview: "https://doi.org/10.3390/ijerph191610108",
+				techStack: ["HeatWaves", "GLM-NB"],
 			},
 			{
-				projectName: "Bill Generator",
-				image: "images/billgenerator.png",
+				projectName: "Drought - Human vulnerability index - CONUS",
 				summary:
-					"GUI to transfer data to excel sheets and generate bills on the local shops.",
-				preview: "https://github.com/vinaysomawat/Bill-Generator",
-				techStack: ["Tkinter", "Openxlpy", "Python"],
+					"Evaluating Changes in Health Risk from Drought over the Contiguous United States.",
+				preview: "https://doi.org/10.3390/ijerph19084628,
+				techStack: ["Vulnerability index", "Spatial statistics"],
 			},
-		],
-		android: [
+			Water_quality: [
 			{
-				projectName: "NITW-CSE",
-				image: "images/nitwcse.jpg",
+				projectName: "Endocrine disrupting chemicals - Pediatric cancer - Nebraska",
 				summary:
-					"The Application display details of Department courses, reference books, research, publication and faculty profile.",
-				preview: "https://github.com/vinaysomawat/NITW-CSE",
-				techStack: ["JAVA", "XML", "Android"],
-			},
-			{
-				projectName: "CareerHigh-App",
-				image: "images/carrerhigh.png",
-				summary:
-					"The Application display the webpages of website careerhigh.in in android devices.",
-				preview: "https://github.com/vinaysomawat/CareerHigh-Android",
-				techStack: ["JAVA", "XML", "Android"],
-			},
-		],
-		freelance: [
-			{
-				projectName: "SnylloAir.com",
-				image: "images/snylloair.png",
-				summary:
-					"Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-				preview: "https://www.snylloair.com/",
-				techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
-			},
-			{
-				projectName: "Delivery+",
-				image: "images/AM-Logo-.png",
-				summary:
-					"Android Application to display website in android devices.",
+					"Association between Aqueous Atrazine and Pediatric Cancer in Nebraska.",
 				preview:
-					"https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-				techStack: ["Android", "JAVA", "Play Store"],
+					"https://doi.org/10.3390/w13192727",
+				techStack: ["SQL","Web APIs", "Tableau", "ArcGIS Pro", "GLN-NB"],
+			},
+			{
+				projectName: "Agrichemicals - Pediatric Cancer",
+				summary:
+					"Geospatial Distribution of Age-Adjusted Incidence of the Three Major Types of Pediatric Cancers and Waterborne Agrichemicals in Nebraska.",
+				preview: "https://doi.org/10.1029/2021GH000419",
+				techStack: ["Atrazine & Nitrates", "GLM-NB"],
+			},
+
+		],
+		Environmental_Misc: [
+			{
+				projectName: "Occupational injuries - Musculoskeletal disorders",
+				summary:
+					"Factors Associated with Musculoskeletal Discomfort in Farmers and Ranchers in the U.S. Central States.",
+				preview: "https://doi.org/10.1080/1059924X.2021.1893880",
+				techStack: ["SAS", "Survey data", "GEE"],
+			},
+
+		],
+		Clinical_epidemiology: [
+			{
+				projectName: "Onco-nephrology - Exploratory data analysis",
+				summary:
+					"Incidence of Cancer among chronic kidney disease patients.",
+				preview: "",
+				techStack: ["i2b2", "SQL", "EHR"],
+			},
+			{
+				projectName: "Phase-4 - Novel Cephalosporin outcomes in Solid orgran transplant recepients",
+				summary:
+					"Treatment of Pseudomonas Infection with Beta-Lactams Including Ceftolozane-Tazobactam in Solid Organ Transplant Recipients.",
+				preview:
+					"",
+				techStack: ["EPIC", "Tableau", "OneChart"],
 			},
 		],
 	},
