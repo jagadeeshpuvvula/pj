@@ -22,6 +22,12 @@ export default {
 			percentage: "87",
 		},
 		{
+			title: "Special topics",
+			skillName: "Causal mediation, environmental mixtures, susceptibility/vulnerability windows",
+			color: "6",
+			percentage: "80",
+		},
+		{
 			title: "Languages",
 			skillName: "R & Python",
 			color: "1",
@@ -29,20 +35,20 @@ export default {
 		},
 		{
 			title: "Softwares",
-			skillName: "Tableau, ArcGIS Pro, ",
-			color: "2",
+			skillName: "Tableau, ArcGIS Pro, Endnote",
+			color: "1",
 			percentage: "40",
 		},
 		{
 			title: "Version Control",
 			skillName: "GitHub",
-			color: "7",
+			color: "1",
 			percentage: "85",
 		},
 		{
 			title: "Editor",
 			skillName: "VS Code",
-			color: "6",
+			color: "1",
 			percentage: "40",
 		},
 	],
