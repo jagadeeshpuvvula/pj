@@ -47,7 +47,7 @@ export default {
 		},
 	],
 	projects: {
-		web: [
+		Air_quality: [
 			{
 				projectName: "Environmental justice - Pediatric asthma - Douglas County, NE",
 				image:"ap.png",
