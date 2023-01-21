@@ -149,7 +149,7 @@ export default {
 				projectName: "Phase-4 - Novel Cephalosporin outcomes in Solid orgran transplant recepients",
 				image:"wc.png",
 				summary:
-					"Treatment of Pseudomonas Infection with Beta-Lactams Including Ceftolozane-Tazobactam in Solid Organ Transplant Recipients.",
+					"Treatment of Pseudomonas Infection with Beta-Lactams Including Ceftolozane-Tazobactam in Solid Organ Transplant Recipients",
 				preview:
 					"",
 				techStack: ["EPIC", "Tableau", "OneChart"],
