@@ -10,7 +10,7 @@ export default {
 		},
 		contact: {
 			text: [
-				" to send me an email",
+				"If you would like to get in touch with me, be it for exploring a technology, a business, or to just say hi, feel free to send me an email. My email address is: vinaysomawat40@gmail.com",
 			],
 		},
 	},
@@ -47,7 +47,7 @@ export default {
 		},
 	],
 	projects: {
-		Air_Quality : [
+		web: [
 			{
 				projectName: "Environmental justice - Pediatric asthma - Douglas County, NE",
 				image:"ap.png",
@@ -102,10 +102,11 @@ export default {
 				image:"cc.png",
 				summary:
 					"Evaluating Changes in Health Risk from Drought over the Contiguous United States.",
-				preview: "https://doi.org/10.3390/ijerph19084628,
+				preview: "https://doi.org/10.3390/ijerph19084628",
 				techStack: ["Vulnerability index", "Spatial statistics"],
 			},
-			Water_quality: [
+		],
+		Water_quality: [
 			{
 				projectName: "Endocrine disrupting chemicals - Pediatric cancer - Nebraska",
 				image:"wc.png",
