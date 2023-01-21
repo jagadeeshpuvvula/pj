@@ -50,6 +50,7 @@ export default {
 		Air_Quality : [
 			{
 				projectName: "Environmental justice - Pediatric asthma - Douglas County, NE",
+				image:"ap.png",
 				summary:
 					"Evaluated the Role of social determinants of health in differential respiratory exposure and health outcomes among children.",
 				preview: "https://doi.org/10.1186/s12889-022-14964-2",
@@ -62,6 +63,7 @@ export default {
 			},
 			{
 				projectName: "Joint effect of air pollutants - Pediatric asthma",
+				image:"ap.png",
 				summary:
 					"Joint association between ambient air pollutant mixture and pediatric asthma exacerbations.",
 				preview: "https://doi.org/10.1097/EE9.0000000000000225",
@@ -69,6 +71,7 @@ export default {
 			},
 			{
 				projectName: "Occupational respiratory exposure - Midwestern US",
+				image:"ap.png",
 				summary:
 					"Prevalence and Risk Factors for Pulmonary Conditions among Farmers and Ranchers in the Central United States.",
 				preview: "https://doi.org/10.1080/1059924X.2021.2025180",
@@ -79,6 +82,7 @@ export default {
 		Climate_change: [
 			{
 				projectName: "Extreme temperature - climate change - North Carolina",
+				image:"cc.png",
 				summary:
 					"Estimating the Burden of Heat-Related Illness Morbidity Attributable to Anthropogenic Climate Change in North Carolina.",
 				preview:
@@ -87,6 +91,7 @@ export default {
 			},
 			{
 				projectName: "Heat waves - ER visits - North Carolina",
+				image:"cc.png",
 				summary:
 					"Evaluating the sensitivity of heat wave definitions among North Carolina physiographic regions.",
 				preview: "https://doi.org/10.3390/ijerph191610108",
@@ -94,6 +99,7 @@ export default {
 			},
 			{
 				projectName: "Drought - Human vulnerability index - CONUS",
+				image:"cc.png",
 				summary:
 					"Evaluating Changes in Health Risk from Drought over the Contiguous United States.",
 				preview: "https://doi.org/10.3390/ijerph19084628,
@@ -102,6 +108,7 @@ export default {
 			Water_quality: [
 			{
 				projectName: "Endocrine disrupting chemicals - Pediatric cancer - Nebraska",
+				image:"wc.png",
 				summary:
 					"Association between Aqueous Atrazine and Pediatric Cancer in Nebraska.",
 				preview:
@@ -110,6 +117,7 @@ export default {
 			},
 			{
 				projectName: "Agrichemicals - Pediatric Cancer",
+				image:"wc.png",
 				summary:
 					"Geospatial Distribution of Age-Adjusted Incidence of the Three Major Types of Pediatric Cancers and Waterborne Agrichemicals in Nebraska.",
 				preview: "https://doi.org/10.1029/2021GH000419",
@@ -120,6 +128,7 @@ export default {
 		Environmental_Misc: [
 			{
 				projectName: "Occupational injuries - Musculoskeletal disorders",
+				image:"wc.png",
 				summary:
 					"Factors Associated with Musculoskeletal Discomfort in Farmers and Ranchers in the U.S. Central States.",
 				preview: "https://doi.org/10.1080/1059924X.2021.1893880",
@@ -130,6 +139,7 @@ export default {
 		Clinical_epidemiology: [
 			{
 				projectName: "Onco-nephrology - Exploratory data analysis",
+				image:"wc.png",
 				summary:
 					"Incidence of Cancer among chronic kidney disease patients.",
 				preview: "",
@@ -137,6 +147,7 @@ export default {
 			},
 			{
 				projectName: "Phase-4 - Novel Cephalosporin outcomes in Solid orgran transplant recepients",
+				image:"wc.png",
 				summary:
 					"Treatment of Pseudomonas Infection with Beta-Lactams Including Ceftolozane-Tazobactam in Solid Organ Transplant Recipients.",
 				preview:
