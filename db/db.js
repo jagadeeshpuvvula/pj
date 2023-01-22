@@ -17,7 +17,7 @@ export default {
 	skills: [
 		{
 			title: "Applied statistical methods",
-			skillName: "Time series, high-dimension/correlated, spatial, hierarchical",
+			skillName: "Time series, high-dimension, correlated, spatial, hierarchical data analysis",
 			color: "6",
 			percentage: "87",
 		},
@@ -60,12 +60,7 @@ export default {
 				summary:
 					"Evaluated the Role of social determinants of health in differential respiratory exposure and health outcomes among children.",
 				preview: "https://doi.org/10.1186/s12889-022-14964-2",
-				techStack: [
-					"SDoH",
-					"Pediatric asthma",
-					"Environmental justice",
-					"Bayesian spatial autocorrelation",
-				],
+				techStack: ["SDoH", "Pediatric asthma","Environmental justice","Bayesian spatial autocorrelation"],
 			},
 			{
 				projectName: "Joint effect of air pollutants - Pediatric asthma",
