@@ -53,7 +53,7 @@ export default {
 		},
 	],
 	projects: {
-		Air_quality: [
+		air: [
 			{
 				projectName: "Environmental justice - Pediatric asthma - Douglas County, NE",
 				image:"ap.png",
@@ -80,7 +80,7 @@ export default {
 			},
 
 		],
-		Climate_change: [
+		cc: [
 			{
 				projectName: "Extreme temperature - climate change - North Carolina",
 				image:"cc.png",
@@ -107,7 +107,7 @@ export default {
 				techStack: ["Vulnerability index", "Spatial statistics"],
 			},
 		],
-		Water_quality: [
+		water: [
 			{
 				projectName: "Endocrine disrupting chemicals - Pediatric cancer - Nebraska",
 				image:"wc.png",
@@ -127,7 +127,7 @@ export default {
 			},
 
 		],
-		Environmental_Misc: [
+		misc: [
 			{
 				projectName: "Occupational injuries - Musculoskeletal disorders",
 				image:"wc.png",
@@ -138,7 +138,7 @@ export default {
 			},
 
 		],
-		Clinical_epidemiology: [
+		clin: [
 			{
 				projectName: "Onco-nephrology - Exploratory data analysis",
 				image:"wc.png",
