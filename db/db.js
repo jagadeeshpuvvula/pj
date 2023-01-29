@@ -62,16 +62,15 @@ export default {
 		web: [
 			{
 				projectName: "Environmental justice - Pediatric asthma - Douglas County, NE",
-				image: "images/programmingdiaries.png",
+				image: "images/ap.png",
 				summary:
 					"Evaluated the Role of social determinants of health in differential respiratory exposure and health outcomes among children.",
-				preview: "https://doi.org/10.1186/s12889-022-14964-2/",
+				preview: "https://doi.org/10.1186/s12889-022-14964-2",
 				techStack: [
-					"R",
-					"environmental mixtures",
-					"gWQS",
-					"pediatric asthma",
-					"criteria pollutants, pollen, mold",
+					"SDoH",
+					"Pediatric asthma",
+					"Environmental justice",
+					"Bayesian spatial autocorrelation",
 				],
 			},
 			{
