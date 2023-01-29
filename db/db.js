@@ -137,21 +137,29 @@ export default {
 		],
 		freelance: [
 			{
-				projectName: "SnylloAir.com",
+				projectName: "Occupational injuries - Musculoskeletal disorders",
 				image: "images/snylloair.png",
 				summary:
-					"Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-				preview: "https://www.snylloair.com/",
-				techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
+					"Factors Associated with Musculoskeletal Discomfort in Farmers and Ranchers in the U.S. Central States.",
+				preview: "https://doi.org/10.1080/1059924X.2021.1893880",
+				techStack: ["SAS", "Survey data", "GEE"],
 			},
 			{
-				projectName: "Delivery+",
+				projectName: "Phase-4 - Novel Cephalosporin outcomes in Solid organ transplant recipients",
+				image: "images/snylloair.png",
+				summary:
+					"Treatment of Pseudomonas Infection with Beta-Lactams Including Ceftolozane-Tazobactam in Solid Organ Transplant Recipients.",
+				preview: "https://doi.org/10.1080/1059924X.2021.1893880",
+				techStack: ["EPIC", "Tableau", "OneChart"],
+			},
+			{
+				projectName: "Onco-nephrology - Exploratory data analysis",
 				image: "images/AM-Logo-.png",
 				summary:
-					"Android Application to display website in android devices.",
+					"Incidence of Cancer among chronic kidney disease patients.",
 				preview:
-					"https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-				techStack: ["Android", "JAVA", "Play Store"],
+					"",
+				techStack: ["i2b2", "SQL", "EHR"],
 			},
 		],
 	},
