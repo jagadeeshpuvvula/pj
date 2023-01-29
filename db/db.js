@@ -92,29 +92,29 @@ export default {
 		],
 		software: [
 			{
-				projectName: "Pizza Ordering ChatBot",
-				image: "images/pizzaorderchatbot.png",
+				projectName: "Extreme temperature - climate change - North Carolina",
+				image: "images/cc.png",
 				summary:
-					"ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
+					"Estimating the Burden of Heat-Related Illness Morbidity Attributable to Anthropogenic Climate Change in North Carolina.",
 				preview:
-					"https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-				techStack: ["Dailogflow", "Firebase"],
+					"https://doi.org/10.1029/2022GH000636",
+				techStack: ["Anthropogenic climate change","Climate modeling: CCSM4, GFDL", "RCP4.5, RCP8.5", "GAM", "DLNM"],
 			},
 			{
-				projectName: "WhatsApp-Bot",
-				image: "images/whatsappbot.jpg",
+				projectName: "Heat waves - ER visits - North Carolina",
+				image: "images/cc.jpg",
 				summary:
-					"Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-				preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-				techStack: ["Selenium", "Chrome Webdriver", "Python"],
+					"Evaluating the sensitivity of heat wave definitions among North Carolina physiographic regions.",
+				preview: "https://doi.org/10.3390/ijerph191610108",
+				techStack: ["HeatWaves", "GLM-NB"],
 			},
 			{
-				projectName: "Bill Generator",
-				image: "images/billgenerator.png",
+				projectName: "Drought - Human vulnerability index - CONUS",
+				image: "images/cc.png",
 				summary:
-					"GUI to transfer data to excel sheets and generate bills on the local shops.",
-				preview: "https://github.com/vinaysomawat/Bill-Generator",
-				techStack: ["Tkinter", "Openxlpy", "Python"],
+					"Evaluating Changes in Health Risk from Drought over the Contiguous United States.",
+				preview: "https://doi.org/10.3390/ijerph19084628",
+				techStack: ["Vulnerability index", "Spatial statistics"],
 			},
 		],
 		android: [
