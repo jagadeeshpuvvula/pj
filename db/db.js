@@ -10,7 +10,7 @@ export default {
 		},
 		contact: {
 			text: [
-				"If you would like to get in touch with me, be it for exploring a technology, a business, or to just say hi, feel free to send me an email. My email address is: vinaysomawat40@gmail.com",
+				"Feel free to connect with me on Twitter, LinkedIn or ResearchGate from below",
 			],
 		},
 	},
@@ -178,7 +178,7 @@ export default {
 				"Brain imaging",
 				"Metabolomics",
 			],
-			icon: "brain",
+			icon: "child",
 		},
 		{
 			title: "University of Nebraska Medical Center | College of Public Health | EAOH",
@@ -228,7 +228,7 @@ export default {
 				"Drug safety monitoring - Phase III/IV clinical trails - US & EU.",
 			],
 			tags: ["Multiple sclerosis", "Cancer"],
-			icon: "drug",
+			icon: "injection",
 		},
 	],
 	education: [
