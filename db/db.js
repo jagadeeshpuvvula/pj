@@ -59,14 +59,20 @@ export default {
 		},
 	],
 	projects: {
-		ap: [
+		web: [
 			{
-				projectName: "Air pollution",
+				projectName: "Programming Diaries",
 				image: "images/ap.png",
 				summary:
 					"Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
 				preview: "https://programmingdiaries.herokuapp.com/",
-				techStack: ["R"],
+				techStack: [
+					"R",
+					"environmental mixtures",
+					"gWQS",
+					"pediatric asthma",
+					"criteria pollutants, pollen, mold",
+				],
 			},
 			{
 				projectName: "Find Your Bank",
