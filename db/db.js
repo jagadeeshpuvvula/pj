@@ -74,28 +74,20 @@ export default {
 				],
 			},
 			{
-				projectName: "Find Your Bank",
-				image: "images/findyourbank.png",
+				projectName: "Joint effect of air pollutants - Pediatric asthma",
+				image: "images/ap.png",
 				summary:
-					"Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
-				preview: "https://clever-fermi-0d5d76.netlify.app",
-				techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
+					"Joint association between ambient air pollutant mixture and pediatric asthma exacerbations.",
+				preview: "https://doi.org/10.1097/EE9.0000000000000225",
+				techStack: ["Criteria pollutants", "Pollen & Mold", "gWQS", "qgcomp"],
 			},
 			{
-				projectName: "Web Portfolio",
-				image: "images/portfolio.png",
+				projectName: "Occupational respiratory exposure - Midwestern US",
+				image: "images/ap.png",
 				summary:
-					"Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
-				preview: "https://github.com/vinaysomawat/Travographer-Portal",
-				techStack: ["HTML", "Bootstrap", "JavaScript"],
-			},
-			{
-				projectName: "Resume Builder",
-				image: "images/resume-builder.png",
-				summary:
-					"Browser based editor to build and download Resumes in a customizable templates.",
-				preview: "https://vinaysomawat.github.io/Resume-Builder",
-				techStack: ["HTML", "Bootstrap", "JavaScript"],
+					"Prevalence and Risk Factors for Pulmonary Conditions among Farmers and Ranchers in the Central United States.",
+				preview: "https://doi.org/10.1080/1059924X.2021.2025180",
+				techStack: ["Organic dust", "Farmers/Ranchers", "Survey data", "GEE"],
 			},
 		],
 		software: [
