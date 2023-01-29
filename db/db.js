@@ -61,11 +61,11 @@ export default {
 	projects: {
 		web: [
 			{
-				projectName: "Programming Diaries",
+				projectName: "Environmental justice - Pediatric asthma - Douglas County, NE",
 				image: "images/programmingdiaries.png",
 				summary:
-					"Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
-				preview: "https://programmingdiaries.herokuapp.com/",
+					"Evaluated the Role of social determinants of health in differential respiratory exposure and health outcomes among children.",
+				preview: "https://doi.org/10.1186/s12889-022-14964-2/",
 				techStack: [
 					"R",
 					"environmental mixtures",
