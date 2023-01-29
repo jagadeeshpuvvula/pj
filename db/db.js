@@ -16,265 +16,244 @@ export default {
 	},
 	skills: [
 		{
-			title: "Applied statistical methods",
-			skillName: "Time series, high-dimension, correlated, spatial, hierarchical data analysis",
-			color: "6",
-			percentage: "87",
-		},
-		{
-			title: "Special topics",
-			skillName: "Causal mediation, environmental mixtures, susceptibility/vulnerability windows",
-			color: "6",
-			percentage: "80",
-		},
-		{
 			title: "Languages",
-			skillName: "R & Python",
+			skillName: "JavaScript, C++",
 			color: "1",
-			percentage: "90",
+			percentage: "70",
 		},
 		{
-			title: "Softwares",
-			skillName: "Tableau, ArcGIS Pro, Endnote",
-			color: "1",
+			title: "Frameworks/Libraries",
+			skillName: "Angular, Reactjs",
+			color: "6",
+			percentage: "50",
+		},
+		{
+			title: "Backend",
+			skillName: "Nodejs, MongoDB",
+			color: "2",
 			percentage: "40",
 		},
 		{
+			title: "Clouds",
+			skillName: "AWS(EC2, S3), Heroku, Netlify",
+			color: "3",
+			percentage: "30",
+		},
+		{
+			title: "Design",
+			skillName: "HTML, Bootstrap, SCSS",
+			color: "4",
+			percentage: "70",
+		},
+		{
 			title: "Version Control",
-			skillName: "GitHub",
-			color: "1",
-			percentage: "85",
+			skillName: "GitHub, JIRA, Trello",
+			color: "7",
+			percentage: "70",
+		},
+		{
+			title: "Tools",
+			skillName: "Postman, Chrome DevTools",
+			color: "3",
+			percentage: "80",
+		},
+		{
+			title: "Saas products",
+			skillName: "CleverTap, FreshDesk",
+			color: "5",
+			percentage: "50",
 		},
 		{
 			title: "Editor",
 			skillName: "VS Code",
-			color: "1",
-			percentage: "40",
+			color: "6",
+			percentage: "70",
 		},
 	],
 	projects: {
-		air: [
+		web: [
 			{
-				projectName: "Environmental justice - Pediatric asthma - Douglas County, NE",
-				image:"images/ap.png",
+				projectName: "Programming Diaries",
+				image: "images/programmingdiaries.png",
 				summary:
-					"Evaluated the Role of social determinants of health in differential respiratory exposure and health outcomes among children.",
-				preview: "https://doi.org/10.1186/s12889-022-14964-2",
-				techStack: ["SDoH", "Pediatric asthma","Environmental justice","Bayesian spatial autocorrelation"],
+					"Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
+				preview: "https://programmingdiaries.herokuapp.com/",
+				techStack: [
+					"Django",
+					"SQLite",
+					"Bootstrap",
+					"JavaScript",
+					"Heroku",
+				],
 			},
 			{
-				projectName: "Joint effect of air pollutants - Pediatric asthma",
-				image:"images/ap.png",
+				projectName: "Find Your Bank",
+				image: "images/findyourbank.png",
 				summary:
-					"Joint association between ambient air pollutant mixture and pediatric asthma exacerbations.",
-				preview: "https://doi.org/10.1097/EE9.0000000000000225",
-				techStack: ["Criteria pollutants", "Pollen & Mold", "gWQS", "qgcomp"],
+					"Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
+				preview: "https://clever-fermi-0d5d76.netlify.app",
+				techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
 			},
 			{
-				projectName: "Occupational respiratory exposure - Midwestern US",
-				image:"images/ap.png",
+				projectName: "Web Portfolio",
+				image: "images/portfolio.png",
 				summary:
-					"Prevalence and Risk Factors for Pulmonary Conditions among Farmers and Ranchers in the Central United States.",
-				preview: "https://doi.org/10.1080/1059924X.2021.2025180",
-				techStack: ["Organic dust", "Farmers/Ranchers", "Survey data", "GEE"],
+					"Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
+				preview: "https://github.com/vinaysomawat/Travographer-Portal",
+				techStack: ["HTML", "Bootstrap", "JavaScript"],
 			},
-
+			{
+				projectName: "Resume Builder",
+				image: "images/resume-builder.png",
+				summary:
+					"Browser based editor to build and download Resumes in a customizable templates.",
+				preview: "https://vinaysomawat.github.io/Resume-Builder",
+				techStack: ["HTML", "Bootstrap", "JavaScript"],
+			},
 		],
-		cc: [
+		software: [
 			{
-				projectName: "Extreme temperature - climate change - North Carolina",
-				image:"images/cc.png",
+				projectName: "Pizza Ordering ChatBot",
+				image: "images/pizzaorderchatbot.png",
 				summary:
-					"Estimating the Burden of Heat-Related Illness Morbidity Attributable to Anthropogenic Climate Change in North Carolina.",
+					"ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
 				preview:
-					"https://doi.org/10.1029/2022GH000636",
-				techStack: ["Anthropogenic climate change","Climate modeling: CCSM4, GFDL", "RCP4.5, RCP8.5", "GAM", "DLNM"],
+					"https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
+				techStack: ["Dailogflow", "Firebase"],
 			},
 			{
-				projectName: "Heat waves - ER visits - North Carolina",
-				image:"images/cc.png",
+				projectName: "WhatsApp-Bot",
+				image: "images/whatsappbot.jpg",
 				summary:
-					"Evaluating the sensitivity of heat wave definitions among North Carolina physiographic regions.",
-				preview: "https://doi.org/10.3390/ijerph191610108",
-				techStack: ["HeatWaves", "GLM-NB"],
+					"Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
+				preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
+				techStack: ["Selenium", "Chrome Webdriver", "Python"],
 			},
 			{
-				projectName: "Drought - Human vulnerability index - CONUS",
-				image:"images/cc.png",
+				projectName: "Bill Generator",
+				image: "images/billgenerator.png",
 				summary:
-					"Evaluating Changes in Health Risk from Drought over the Contiguous United States.",
-				preview: "https://doi.org/10.3390/ijerph19084628",
-				techStack: ["Vulnerability index", "Spatial statistics"],
+					"GUI to transfer data to excel sheets and generate bills on the local shops.",
+				preview: "https://github.com/vinaysomawat/Bill-Generator",
+				techStack: ["Tkinter", "Openxlpy", "Python"],
 			},
 		],
-		water: [
+		android: [
 			{
-				projectName: "Endocrine disrupting chemicals - Pediatric cancer - Nebraska",
-				image:"images/wc.png",
+				projectName: "NITW-CSE",
+				image: "images/nitwcse.jpg",
 				summary:
-					"Association between Aqueous Atrazine and Pediatric Cancer in Nebraska.",
+					"The Application display details of Department courses, reference books, research, publication and faculty profile.",
+				preview: "https://github.com/vinaysomawat/NITW-CSE",
+				techStack: ["JAVA", "XML", "Android"],
+			},
+			{
+				projectName: "CareerHigh-App",
+				image: "images/carrerhigh.png",
+				summary:
+					"The Application display the webpages of website careerhigh.in in android devices.",
+				preview: "https://github.com/vinaysomawat/CareerHigh-Android",
+				techStack: ["JAVA", "XML", "Android"],
+			},
+		],
+		freelance: [
+			{
+				projectName: "SnylloAir.com",
+				image: "images/snylloair.png",
+				summary:
+					"Developed a company website to showcase the purpose, services and products provided by the company to audience.",
+				preview: "https://www.snylloair.com/",
+				techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
+			},
+			{
+				projectName: "Delivery+",
+				image: "images/AM-Logo-.png",
+				summary:
+					"Android Application to display website in android devices.",
 				preview:
-					"https://doi.org/10.3390/w13192727",
-				techStack: ["SQL","Web APIs", "Tableau", "ArcGIS Pro", "GLN-NB"],
-			},
-			{
-				projectName: "Agrichemicals - Pediatric Cancer",
-				image:"images/wc.png",
-				summary:
-					"Geospatial Distribution of Age-Adjusted Incidence of the Three Major Types of Pediatric Cancers and Waterborne Agrichemicals in Nebraska.",
-				preview: "https://doi.org/10.1029/2021GH000419",
-				techStack: ["Atrazine & Nitrates", "GLM-NB"],
-			},
-
-		],
-		misc: [
-			{
-				projectName: "Occupational injuries - Musculoskeletal disorders",
-				image:"images/wc.png",
-				summary:
-					"Factors Associated with Musculoskeletal Discomfort in Farmers and Ranchers in the U.S. Central States.",
-				preview: "https://doi.org/10.1080/1059924X.2021.1893880",
-				techStack: ["SAS", "Survey data", "GEE"],
-			},
-
-		],
-		clin: [
-			{
-				projectName: "Onco-nephrology - Exploratory data analysis",
-				image:"images/wc.png",
-				summary:
-					"Incidence of Cancer among chronic kidney disease patients.",
-				preview: "",
-				techStack: ["i2b2", "SQL", "EHR"],
-			},
-			{
-				projectName: "Phase-4 - Novel Cephalosporin outcomes in Solid orgran transplant recepients",
-				image:"images/wc.png",
-				summary:
-					"Treatment of Pseudomonas Infection with Beta-Lactams Including Ceftolozane-Tazobactam in Solid Organ Transplant Recipients",
-				preview:
-					"",
-				techStack: ["EPIC", "Tableau", "OneChart"],
+					"https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
+				techStack: ["Android", "JAVA", "Play Store"],
 			},
 		],
 	},
 	experience: [
 		{
-			title: "University of Pennsylvania - Perelman College of Medicine | DBEI | CCEB",
-			duration: "August 2022 - Present",
-			subtitle: "Postdoctoral researcher | Environmental epidemology",
+			title: "Biofourmis India Pvt. Ltd.",
+			duration: "April 2022 - Present",
+			subtitle: "Software Engineer",
 			details: [
-				"Working on environmental mixtures and neurodevelopmental outcomes."
+				"Working on the products in the healthcare/digital therapeutics domain."
 			],
 			tags: [
-				"Environmental mixtures",
-				"Susceptibility window",
-				"Causal mediation",
-				"Brain imaging",
-				"Metabolomics",
+				"JavaScript",
+				"Angular",
+				"Bootstrap",
+				"Nodejs",
+				"Jenkins",
 			],
+			icon: "heartbeat",
 		},
 		{
-			title: "University of Nebraska Medical Center | College of Public Health | EAOH",
-			duration: "January 2018 - August 2022",
-			subtitle: "Pre-doctoral fellow | Population health",
+			title: "Novopay Solutions Pvt. Ltd.",
+			duration: "June 2020 - April 2022",
+			subtitle: "Software Engineer",
 			details: [
-				"Worked on agrichemical exposures and pediatric cancer",
-				"Extreme heat and climate change",
-				"Air pollution and pediatric asthma",
-				"Actively participated in Water Climate and Health center",
+				"Implemented Aadhaar Enabled Payment services such as Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements, and Money transfer; completed more than 20 story points in each sprint.",
+				"Integrated QR Code and reduced the effective time by 50 percent to load money into wallet, Clevertap events to track user actions, Freshdesk ticketing service and chat-bot services. Worked on user onboarding, approval, and finance interfaces.",
+				"Co-ordinated closely with the product team, backend team, android team, and QA team to deliver the product builds before deadlines.",
 			],
 			tags: [
-				"Web API",
-				"EHR",
-				"i2b2",
-				"Climate attribution",
-				"Environmental health",
-				"Applied statistics",
+				"JavaScript",
+				"Angular",
+				"React",
+				"Bootstrap",
+				"Nodejs",
+				"Jenkins",
 			],
+			icon: "qrcode",
 		},
 		{
-			title: "Daugherty Water for Food Global Institute",
-			duration: "January 2019 - June 2021",
-			subtitle: "Student researcher",
+			title: "ThinkPedia LLP",
+			duration: "May 2019 - June 2019",
+			subtitle: "SDE Intern",
 			details: [
-				"Worked on water quality and health research.",
+				"Worked as a full stack developer to support tech team.",
+				"Developed a customer Web Application from scratch for social media management.",
 			],
-			tags: ["Environmental health", "Science communication"],
-		},
-		{
-			title: "UnitedWay of Midlands",
-			duration: "March 2017 - September 2017",
-			subtitle: "Student researcher",
-			details: [
-				"Community needs assessment - Douglas County, NE.",
-			],
-			tags: ["Food deserts", "Environemntal justics"],
-		},
-		{
-			title: "Daugherty Water for Food Global Institute",
-			duration: "December 2014 - November 2016",
-			subtitle: "Scientist - Pharmacoepidemiology",
-			details: [
-				"Drug safety monitoring - Phase III/IV clinical trails - US & EU.",
-			],
-			tags: ["Multiple sclerosis", "Cancer"],
+			tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
+			icon: "group",
 		},
 	],
 	education: [
 		{
-			title: "Doctor of Philosophy - Environmental Health & Toxicology",
+			title: "Bachelors in Computer Science and Engineering",
 			duration: "",
-			subtitle: "University of Nebraska Medical Center",
+			subtitle: "National Institute of Technology, Warangal",
 			details: [
-				"• Thesis: Environmental exposures and human health challenges: Evidence based insights from health surveillance systems.",
+				"Qualified GATE-2020.",
+				"Active Competitive Programmer with CodeChef Rating 1841*.",
+				"Received 500+ stars and 300+ forks on GitHub projects.",
 			],
 			tags: [
-				"Environmental epidemiology",
-				"Advanced epidemiologic methods",
-				"Applied biostatistics",
-				"Statistical programming",
+				"Data Structures & Algorithms",
+				"Operating Systems",
+				"Database Management System",
+				"Computer Networks",
+				"Compiler Designing",
+				"Cloud Computing",
 			],
+			icon: "graduation-cap",
 		},
 		{
-			title: "Master of Public Health - Epidemiology",
+			title: "Class 11-12th in Science and Mathematics",
 			duration: "",
-			subtitle: "University of Nebraska Medical Center",
+			subtitle: "Board of Secondary Education, Rajasthan",
 			details: [
-				"• Thesis: Characterization of cancer risk among chronic kidney disease patients.",
+				"Qualified JEE Advanced, Main & BITSAT.",
+				"Secured 99.5 percentile in Class 12th Boards Examinations.",
 			],
-			tags: [
-				"Clinical epidemiology",
-				"Epidemiology methods",
-				"Applied biostatistics",
-				"Statistical programming",
-			],
-		},
-		{
-			title: "Doctor of Pharmacy",
-			duration: "",
-			subtitle: "Rajiv Gandhi University of Health Sciences, India",
-			details: [
-				"• Thesis: Drug-Drug and Drug-food interactions among stem cell transplant recepients.",
-			],
-			tags: [
-				"Clinical research",
-				"Pharmacology & Toxicology",
-			],
-		},
-		{
-			title: "Bachelors in Pharmaceutical Sciences",
-			duration: "",
-			subtitle: "TamilNadu Dr. M.G.R. Medical University, India",
-			details: [
-				"• Thesis: Effect of sodium channel modulator pre-treatment on animal models of epilepsy.",
-			],
-			tags: [
-				"Analytical chemistry",
-				"Pharmacology",
-				"Toxicology",
-				"Clinical research",
-			],
+			tags: ["Physics", "Chemistry", "Mathematics"],
+			icon: "book",
 		},
 	],
 	footer: [
