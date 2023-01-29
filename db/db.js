@@ -138,7 +138,7 @@ export default {
 		freelance: [
 			{
 				projectName: "Occupational injuries - Musculoskeletal disorders",
-				image: "images/snylloair.png",
+				image: "images/epi.png",
 				summary:
 					"Factors Associated with Musculoskeletal Discomfort in Farmers and Ranchers in the U.S. Central States.",
 				preview: "https://doi.org/10.1080/1059924X.2021.1893880",
@@ -146,7 +146,7 @@ export default {
 			},
 			{
 				projectName: "Phase-4 - Novel Cephalosporin outcomes in Solid organ transplant recipients",
-				image: "images/snylloair.png",
+				image: "images/epi.png",
 				summary:
 					"Treatment of Pseudomonas Infection with Beta-Lactams Including Ceftolozane-Tazobactam in Solid Organ Transplant Recipients.",
 				preview: "https://doi.org/10.1080/1059924X.2021.1893880",
@@ -154,7 +154,7 @@ export default {
 			},
 			{
 				projectName: "Onco-nephrology - Exploratory data analysis",
-				image: "images/AM-Logo-.png",
+				image: "images/epi.png",
 				summary:
 					"Incidence of Cancer among chronic kidney disease patients.",
 				preview:
@@ -231,34 +231,62 @@ export default {
 	],
 	education: [
 		{
-			title: "Bachelors in Computer Science and Engineering",
+			title: "Doctor of Philosophy - Environmental Health & Toxicology",
 			duration: "",
-			subtitle: "National Institute of Technology, Warangal",
+			subtitle: "University of Nebraska Medical Center",
 			details: [
-				"Qualified GATE-2020.",
-				"Active Competitive Programmer with CodeChef Rating 1841*.",
-				"Received 500+ stars and 300+ forks on GitHub projects.",
+				"Thesis: Environmental exposures and human health challenges: Evidence based insights from health surveillance systems.",
 			],
 			tags: [
-				"Data Structures & Algorithms",
-				"Operating Systems",
-				"Database Management System",
-				"Computer Networks",
-				"Compiler Designing",
-				"Cloud Computing",
+				"Environmental epidemiology",
+				"Advanced epidemiological methods",
+				"Applied biostatistics",
+				"Statistical programming",
 			],
 			icon: "graduation-cap",
 		},
 		{
-			title: "Class 11-12th in Science and Mathematics",
+			title: "Master of Public Health - Epidemiology",
 			duration: "",
-			subtitle: "Board of Secondary Education, Rajasthan",
+			subtitle: "University of Nebraska Medical Center",
 			details: [
-				"Qualified JEE Advanced, Main & BITSAT.",
-				"Secured 99.5 percentile in Class 12th Boards Examinations.",
+				"Thesis: Characterization of cancer risk among chronic kidney disease patients.",
 			],
-			tags: ["Physics", "Chemistry", "Mathematics"],
-			icon: "book",
+			tags: [
+				"Clinical epidemiology",
+				"Epidemiology methods",
+				"Applied biostatistics",
+				"Statistical programming",
+			],
+			icon: "graduation-cap",
+		},
+				{
+			title: "Doctor of Pharmacy",
+			duration: "",
+			subtitle: "Rajiv Gandhi University of Health Sciences, India",
+			details: [
+				"Thesis: Drug-Drug and Drug-food interactions among stem cell transplant recipients.",
+			],
+			tags: [
+				"Clinical research",
+				"Pharmacology & Toxicology",
+			],
+			icon: "graduation-cap",
+		},
+		{
+			title: "Bachelors in Pharmaceutical Sciences",
+			duration: "",
+			subtitle: "TamilNadu Dr. M.G.R. Medical University, India",
+			details: [
+				"Thesis: Effect of sodium channel modulator pre-treatment on animal models of epilepsy.",
+			],
+			tags: [
+				"Analytical chemistry",
+				"Pharmacology",
+				"Toxicology",
+				"Clinical research",
+			],
+			icon: "graduation-cap",
 		},
 	],
 	footer: [
