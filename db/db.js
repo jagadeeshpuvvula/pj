@@ -59,20 +59,14 @@ export default {
 		},
 	],
 	projects: {
-		web: [
+		ap: [
 			{
-				projectName: "Programming Diaries",
-				image: "images/programmingdiaries.png",
+				projectName: "Air pollution",
+				image: "images/ap.png",
 				summary:
 					"Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
 				preview: "https://programmingdiaries.herokuapp.com/",
-				techStack: [
-					"Django",
-					"SQLite",
-					"Bootstrap",
-					"JavaScript",
-					"Heroku",
-				],
+				techStack: ["R"],
 			},
 			{
 				projectName: "Find Your Bank",
