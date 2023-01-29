@@ -296,16 +296,8 @@ export default {
 			label: "Dev Profiles",
 			data: [
 				{
-					text: "Stackoverflow",
-					link: "https://stackoverflow.com/users/8461233/vinay-somawat",
-				},
-				{
 					text: "GitHub",
-					link: "https://github.com/vinaysomawat",
-				},
-				{
-					text: "LeetCode",
-					link: "https://leetcode.com/somawatvinay/",
+					link: "https://github.com/jagadeeshpuvvula",
 				},
 			],
 		},
@@ -322,7 +314,7 @@ export default {
 				},
 				{
 					text: "Clone this page",
-					link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+					link: "https://github.com/jagadeeshpuvvula.github.io/pj/",
 				},
 			],
 		},
@@ -331,23 +323,23 @@ export default {
 			data: [
 				{
 					text: "Linkedin",
-					link: "https://www.linkedin.com/in/vinaysomawat/",
+					link: "https://www.linkedin.com/in/drjpuvvula",
 				},
 				{
 					text: "Twitter",
-					link: "https://twitter.com/thesigmakid",
+					link: "https://mobile.twitter.com/j_puvvula",
 				},
 				{
-					text: "Buy me a coffee",
-					link: "https://www.buymeacoffee.com/r194dME8y",
+					text: "ResearchGate",
+					link: "https://www.researchgate.net/profile/Jagadeesh-Puvvula-2",
 				},
 			],
 		},
 		{
 			label: "copyright-text",
 			data: [
-				"Made with &hearts; by Vinay Somawat.",
-				"&copy; No Copyrights. Feel free to use this template."
+				"Compiled by Jagadeesh Puvvula.",
+				"&copy; No Copyrights declared."
 			],
 		},
 	],
