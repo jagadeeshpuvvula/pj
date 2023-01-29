@@ -62,7 +62,7 @@ export default {
 		web: [
 			{
 				projectName: "Programming Diaries",
-				image: "images/ap.png",
+				image: "images/programmingdiaries.png",
 				summary:
 					"Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
 				preview: "https://programmingdiaries.herokuapp.com/",
