@@ -178,7 +178,7 @@ export default {
 				"Brain imaging",
 				"Metabolomics",
 			],
-			icon: "heartbeat",
+			icon: "brain",
 		},
 		{
 			title: "University of Nebraska Medical Center | College of Public Health | EAOH",
@@ -198,7 +198,7 @@ export default {
 				"Environmental health",
 				"Applied statistics",
 			],
-			icon: "qrcode",
+			icon: "group",
 		},
 		{
 			title: "Daugherty Water for Food Global Institute",
@@ -218,6 +218,7 @@ export default {
 				"Community needs assessment - Douglas County, NE.",
 			],
 			tags: ["Food deserts", "Environmental justice"],
+			icon: "group",
 		},
 				{
 			title: "Bioclinica - For Merck KgAa",
@@ -227,6 +228,7 @@ export default {
 				"Drug safety monitoring - Phase III/IV clinical trails - US & EU.",
 			],
 			tags: ["Multiple sclerosis", "Cancer"],
+			icon: "drug",
 		},
 	],
 	education: [
