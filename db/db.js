@@ -119,20 +119,20 @@ export default {
 		],
 		android: [
 			{
-				projectName: "NITW-CSE",
-				image: "images/nitwcse.jpg",
+				projectName: "Endocrine disrupting chemicals - Pediatric cancer - Nebraska",
+				image: "images/wc.jpg",
 				summary:
-					"The Application display details of Department courses, reference books, research, publication and faculty profile.",
-				preview: "https://github.com/vinaysomawat/NITW-CSE",
-				techStack: ["JAVA", "XML", "Android"],
+					"Association between Aqueous Atrazine and Pediatric Cancer in Nebraska.",
+				preview: "https://doi.org/10.3390/w13192727",
+				techStack: ["SQL","Web APIs", "Tableau", "ArcGIS Pro", "GLN-NB"],
 			},
 			{
-				projectName: "CareerHigh-App",
-				image: "images/carrerhigh.png",
+				projectName: "Agrichemicals - Pediatric Cancer",
+				image: "images/wc.png",
 				summary:
-					"The Application display the webpages of website careerhigh.in in android devices.",
-				preview: "https://github.com/vinaysomawat/CareerHigh-Android",
-				techStack: ["JAVA", "XML", "Android"],
+					"Geospatial Distribution of Age-Adjusted Incidence of the Three Major Types of Pediatric Cancers and Waterborne Agrichemicals in Nebraska.",
+				preview: "https://doi.org/10.1029/2021GH000419",
+				techStack: ["Atrazine & Nitrates", "GLM-NB"],
 			},
 		],
 		freelance: [
