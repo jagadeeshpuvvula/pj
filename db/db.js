@@ -228,7 +228,7 @@ export default {
 				"Drug safety monitoring - Phase III/IV clinical trails - US & EU.",
 			],
 			tags: ["Multiple sclerosis", "Cancer"],
-			icon: "injection",
+			icon: "group",
 		},
 	],
 	education: [
