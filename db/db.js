@@ -75,7 +75,7 @@ export default {
 			},
 			{
 				projectName: "Joint effect of air pollutants - Pediatric asthma",
-				image: "images/ap.png",
+				image: "images/sneez.png",
 				summary:
 					"Joint association between ambient air pollutant mixture and pediatric asthma exacerbations.",
 				preview: "https://doi.org/10.1097/EE9.0000000000000225",
