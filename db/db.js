@@ -110,7 +110,7 @@ export default {
 			},
 			{
 				projectName: "Drought - Human vulnerability index - CONUS",
-				image: "images/cc.png",
+				image: "images/dro.png",
 				summary:
 					"Evaluating Changes in Health Risk from Drought over the Contiguous United States.",
 				preview: "https://doi.org/10.3390/ijerph19084628",
