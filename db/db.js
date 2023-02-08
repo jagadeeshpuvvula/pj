@@ -83,7 +83,7 @@ export default {
 			},
 			{
 				projectName: "Occupational respiratory exposure - Midwestern US",
-				image: "images/ap.png",
+				image: "images/farm.png",
 				summary:
 					"Prevalence and Risk Factors for Pulmonary Conditions among Farmers and Ranchers in the Central United States.",
 				preview: "https://doi.org/10.1080/1059924X.2021.2025180",
