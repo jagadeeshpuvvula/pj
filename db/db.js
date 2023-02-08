@@ -102,7 +102,7 @@ export default {
 			},
 			{
 				projectName: "Heat waves - ER visits - North Carolina",
-				image: "images/cc.jpg",
+				image: "images/cc.png",
 				summary:
 					"Evaluating the sensitivity of heat wave definitions among North Carolina physiographic regions.",
 				preview: "https://doi.org/10.3390/ijerph191610108",
@@ -120,7 +120,7 @@ export default {
 		android: [
 			{
 				projectName: "Endocrine disrupting chemicals - Pediatric cancer - Nebraska",
-				image: "images/wc.jpg",
+				image: "images/wc.png",
 				summary:
 					"Association between Aqueous Atrazine and Pediatric Cancer in Nebraska.",
 				preview: "https://doi.org/10.3390/w13192727",
@@ -221,7 +221,7 @@ export default {
 			icon: "group",
 		},
 				{
-			title: "Bioclinica - For Merck KgAa",
+			title: "Bioclinica - For Merck KGaA",
 			duration: "December 2014 - November 2016",
 			subtitle: "Scientist - Pharmacoepidemiology",
 			details: [
