@@ -102,7 +102,7 @@ export default {
 			},
 			{
 				projectName: "Heat waves - ER visits - North Carolina",
-				image: "images/cc.png",
+				image: "images/hw.png",
 				summary:
 					"Evaluating the sensitivity of heat wave definitions among North Carolina physiographic regions.",
 				preview: "https://doi.org/10.3390/ijerph191610108",
