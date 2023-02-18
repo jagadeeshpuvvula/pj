@@ -154,7 +154,7 @@ export default {
 			},
 			{
 				projectName: "Onco-nephrology - Exploratory data analysis",
-				image: "images/epi.png",
+				image: "images/kid.png",
 				summary:
 					"Incidence of Cancer among chronic kidney disease patients.",
 				preview:
