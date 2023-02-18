@@ -120,7 +120,7 @@ export default {
 		android: [
 			{
 				projectName: "Endocrine disrupting chemicals - Pediatric cancer - Nebraska",
-				image: "images/wc.png",
+				image: "images/chem.png",
 				summary:
 					"Association between Aqueous Atrazine and Pediatric Cancer in Nebraska.",
 				preview: "https://doi.org/10.3390/w13192727",
