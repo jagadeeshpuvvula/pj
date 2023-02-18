@@ -138,7 +138,7 @@ export default {
 		freelance: [
 			{
 				projectName: "Occupational injuries - Musculoskeletal disorders",
-				image: "images/epi.png",
+				image: "images/pain.png",
 				summary:
 					"Factors Associated with Musculoskeletal Discomfort in Farmers and Ranchers in the U.S. Central States.",
 				preview: "https://doi.org/10.1080/1059924X.2021.1893880",
