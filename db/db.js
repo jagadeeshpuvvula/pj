@@ -2,10 +2,6 @@ export default {
 	bio: {
 		about: {
 			text: [
-				"Hi &#128075;",
-				"I'm Vinay Somawat. I’m currently working as a Software Engineer at Biofourmis India specialized in JavaScript Applications. I did my undergrad in CS from NIT Warangal.",
-				"I'm a developer, geek and curious human besides being an OpenSource enthusiast. I have experience of delivering solutions for interesting problems from startup and industry space.",
-				"I love to read, listen to music, and travel.",
 			],
 		},
 		contact: {
@@ -177,6 +173,8 @@ export default {
 				"Causal mediation",
 				"Brain imaging",
 				"Metabolomics",
+				"DNAmethylation",
+				"Repeated exposure/outcomes"
 			],
 			icon: "child",
 		},
