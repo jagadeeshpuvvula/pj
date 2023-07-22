@@ -23,7 +23,7 @@ export default {
 		},
 		{
 			title: "Applied statistical methods",
-			skillName: "Time series, high-dimension, correlated, spatial, hierarchical data analysis",
+			skillName: "Time series, high-dimension, correlated, spatial, hierarchical data analysis, DNAmethylation, 16sRNA Seq",
 			color: "6",
 			percentage: "85",
 		},
@@ -35,9 +35,9 @@ export default {
 		},
 		{
 			title: "Languages",
-			skillName: "R, Python, Bash, Slurm",
+			skillName: "R, Python, Linux, Bash, JavaScript ",
 			color: "1",
-			percentage: "90",
+			percentage: "80",
 		},
 		{
 			title: "Softwares",
@@ -47,9 +47,9 @@ export default {
 		},
 		{
 			title: "Version Control",
-			skillName: "GitHub",
+			skillName: "Git, Slurm",
 			color: "1",
-			percentage: "85",
+			percentage: "75",
 		},
 		{
 			title: "Editor",
