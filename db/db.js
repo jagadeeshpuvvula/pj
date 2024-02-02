@@ -19,7 +19,7 @@ export default {
 		},
 		{
 			title: "Applied statistical methods",
-			skillName: "Time series, high-dimension, correlated, spatial, hierarchical data analysis, DNAmethylation, 16sRNA Seq",
+			skillName: "Time series, high-dimension (metabolome, epigenome, and microbiome), correlated, spatial, hierarchical data analysis",
 			color: "6",
 			percentage: "85",
 		},
@@ -43,7 +43,7 @@ export default {
 		},
 		{
 			title: "Version Control",
-			skillName: "Git, Slurm",
+			skillName: "Git, Slurm, Docker",
 			color: "1",
 			percentage: "75",
 		},
@@ -55,6 +55,32 @@ export default {
 		},
 	],
 	projects: {
+		web1: [
+			{
+				projectName: "Global metabolomic changes associated with Polycyclic Aromatic Hydrocarbons",
+				image: "images/chem.png",
+				summary:
+					"Maternal and newborn metabolomic changes associated with urinary polycyclic aromatic hydrocarbon metabolite concentrations at delivery: an untargeted approach.",
+				preview: "https://doi.org/10.1007/s11306-023-02074-y",
+				techStack: ["Untargeted metabolomics","Gestational PAH exposures", "Biomarkers", "Global metabolome", "R"],
+			},
+			{
+				projectName: "Global metabolomic alterations associated with Endocrine Disrupting Chemicals",
+				image: "images/wc.png",
+				summary:
+					"Global metabolomic alterations associated with endocrine-disrupting chemicals among pregnant individuals and newborns.",
+				preview: "Internal review",
+				techStack: ["37 biomarkers of Phenols, Phthalates, DINCH", "Serum metabolome", "Untargeted metabolomics"],
+			},
+			{
+				projectName: "Epigenetic changes associated with Endocrine Disrupting Chemicals",
+				image: "images/wc.png",
+				summary:
+					"Gestational exposure to environmental chemicals and epigenetic alterations in the placenta and cord blood mononuclear cells",
+				preview: "Revision submitted to Epigenetic communications",
+				techStack: ["Illumina 450K methylation", "Global epigenome", "mono nuclear cells and placenta methylation", "minfi", "R"],
+			},
+		],
 		web: [
 			{
 				projectName: "Environmental justice - Pediatric asthma - Douglas County, NE",
