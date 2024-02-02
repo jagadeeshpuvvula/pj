@@ -62,11 +62,12 @@ export default {
 				summary:
 					"Maternal and newborn metabolomic changes associated with urinary polycyclic aromatic hydrocarbon metabolite concentrations at delivery: an untargeted approach.",
 				preview: "https://doi.org/10.1007/s11306-023-02074-y",
-				techStack: ["Untargeted metabolomics",
-					    "Gestational PAH exposures", 
-					    "Biomarkers", 
-					    "Global metabolome", 
-					    "R"],
+				techStack: [
+					"Untargeted metabolomics",
+					"Gestational PAH exposures",
+					"Biomarkers",
+					"Global metabolome",
+					"R"],
 				
 			},
 			{
@@ -75,9 +76,10 @@ export default {
 				summary:
 					"Global metabolomic alterations associated with endocrine-disrupting chemicals among pregnant individuals and newborns.",
 				preview: "https://doi.org/10.1007/s11306-023-02074-y",
-				techStack: ["Biomarkers of Phenols Phthalates, DINCH", 
-					    "Serum metabolome", 
-					    "Untargeted metabolomics"],
+				techStack: [
+					"Biomarkers of Phenols Phthalates, DINCH",
+					"Serum metabolome",
+					"Untargeted metabolomics"],
 			},
 			{
 				projectName: "Epigenetic changes associated with Endocrine Disrupting Chemicals",
@@ -85,11 +87,12 @@ export default {
 				summary:
 					"Gestational exposure to environmental chemicals and epigenetic alterations in the placenta and cord blood mononuclear cells.",
 				preview: "https://doi.org/10.1007/s11306-023-02074-y",
-				techStack: ["Illumina 450K methylation", 
-					    "Global epigenome", 
-					    "mono nuclear cells and placenta methylation", 
-					    "minfi", 
-					    "R"],
+				techStack: [
+					"Illumina 450K methylation",
+					"Global epigenome",
+					"Mono nuclear cells and placenta methylation",
+					"minfi",
+					"R"],
 			},
 		],
 		web: [
