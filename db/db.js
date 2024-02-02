@@ -55,7 +55,7 @@ export default {
 		},
 	],
 	projects: {
-		web1: [
+		webber: [
 			{
 				projectName: "Global metabolomic changes associated with Polycyclic Aromatic Hydrocarbons",
 				image: "images/chem.png",
