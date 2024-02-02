@@ -195,12 +195,11 @@ export default {
 			],
 			tags: [
 				"Environmental mixtures",
-				"Susceptibility window",
+				"Longitudinal exposure-outcome associations",
 				"Causal mediation",
 				"Brain imaging",
 				"Metabolomics",
-				"DNAmethylation",
-				"Repeated exposure/outcomes"
+				"Epigenetics"
 			],
 			icon: "child",
 		},
@@ -209,10 +208,10 @@ export default {
 			duration: "January 2018 - August 2022",
 			subtitle: "Pre-doctoral fellow | Population health",
 			details: [
-				"Worked on agrichemical exposures and pediatric cancer",
-				"Extreme heat and climate change",
+				"Agrichemical exposures and pediatric cancer",
+				"Extreme heat, heat waves and climate change",
 				"Air pollution and pediatric asthma",
-				"Actively participated in Water Climate and Health center",
+				"Actively participated in Water Climate and Health program",
 			],
 			tags: [
 				"Web API",
@@ -251,7 +250,7 @@ export default {
 			details: [
 				"Drug safety monitoring - Phase III/IV clinical trails - US & EU.",
 			],
-			tags: ["Multiple sclerosis", "Cancer"],
+			tags: ["Multiple sclerosis", "Cancer", "Fertility"],
 			icon: "group",
 		},
 	],
