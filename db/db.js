@@ -154,6 +154,14 @@ export default {
 				techStack: ["HeatWaves", "GLM-NB"],
 			},
 			{
+				projectName: "Drought - Human vulnerability index - Nebraska",
+				image: "images/dro.png",
+				summary:
+					"Health vulnerability mapping for drought: a case study in a predominantly rural, agricultural state.",
+				preview: "https://doi.org/10.1088/2752-5309/ad689a",
+				techStack: ["Vulnerability index", "Drought"],
+			},
+			{
 				projectName: "Drought - Human vulnerability index - CONUS",
 				image: "images/dro.png",
 				summary:
