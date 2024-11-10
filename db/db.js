@@ -201,11 +201,11 @@ export default {
 	},
 	experience: [
 		{
-			title: "University of Pennsylvania - Perelman College of Medicine | DBEI | CCEB",
-			duration: "August 2022 - Present",
-			subtitle: "Postdoctoral researcher | Environmental epidemology",
+			title: "University of Pennsylvania - Perelman College of Medicine | DBEI ",
+			subtitle: ["★July 2024 - Present | Research Associate | Epidemiology & Biostatistics",
+				"★September 2022 - June 2024 | Postdoctoral researcher | Environmental epidemology"],
 			details: [
-				"Working on environmental mixtures and neurodevelopmental outcomes."
+				"Gestational/childhood exposure to environmental chemical mixtures and neurodevelopmental outcomes."
 			],
 			tags: [
 				"Environmental mixtures",
