@@ -219,6 +219,7 @@ export default {
 	experience: [
 		{
 			title: "University of Pennsylvania - Perelman School of Medicine | DBEI ",
+			duration: " ",
 			subtitle: [
 				"★July 2024 - Present | Research Associate | Epidemiology & Biostatistics",
 				"★September 2022 - June 2024 | Postdoctoral researcher | Environmental Epidemiology"
