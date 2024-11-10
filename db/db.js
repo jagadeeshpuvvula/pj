@@ -128,6 +128,15 @@ export default {
 		],
 		software: [
 			{
+				projectName: "Impact of climate change on human mortality in CONUS",
+				image: "images/cc.png",
+				summary:
+					"Projections of Extreme Temperature–Related Deaths in the US.",
+				preview:
+					"https://doi.org/10.1001/jamanetworkopen.2024.34942",
+				techStack: ["Climate modeling: SSP2-4.5, SSP5-8.5", "All cause mortality", "Elderly", "Vulnerability"],
+			},
+			{
 				projectName: "Extreme temperature - climate change - North Carolina",
 				image: "images/cc.png",
 				summary:
