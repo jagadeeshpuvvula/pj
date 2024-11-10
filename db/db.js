@@ -155,7 +155,7 @@ export default {
 			},
 			{
 				projectName: "Drought - Human vulnerability index - Nebraska",
-				image: "images/dro.png",
+				image: "images/drou_2.jpg",
 				summary:
 					"Health vulnerability mapping for drought: a case study in a predominantly rural, agricultural state.",
 				preview: "https://doi.org/10.1088/2752-5309/ad689a",
