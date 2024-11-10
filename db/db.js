@@ -129,7 +129,7 @@ export default {
 		software: [
 			{
 				projectName: "Impact of climate change on human mortality in CONUS",
-				image: "images/cc.png",
+				image: "images/cc_2.png",
 				summary:
 					"Projections of Extreme Temperature–Related Deaths in the US.",
 				preview:
