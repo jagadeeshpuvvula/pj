@@ -202,8 +202,10 @@ export default {
 	experience: [
 		{
 			title: "University of Pennsylvania - Perelman College of Medicine | DBEI ",
-			subtitle: ["★July 2024 - Present | Research Associate | Epidemiology & Biostatistics",
-				"★September 2022 - June 2024 | Postdoctoral researcher | Environmental epidemology"],
+			subtitle: [
+				"★July 2024 - Present | Research Associate | Epidemiology & Biostatistics",
+				"★September 2022 - June 2024 | Postdoctoral researcher | Environmental Epidemiology"
+			].join("\n"),
 			details: [
 				"Gestational/childhood exposure to environmental chemical mixtures and neurodevelopmental outcomes."
 			],
