@@ -138,21 +138,21 @@ figure figcaption {
 	width: 300px;
 	position: fixed;
 	z-index: 1001;
-	background-color: #f9bf3f;
+	background-color: #3f6af9;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
 }
 @media screen and (max-width: 768px) {
 	#colorlib-aside {
-		width: 300px;
+		width: 350px;
 		-moz-transform: translateX(-300px);
 		-webkit-transform: translateX(-300px);
 		-ms-transform: translateX(-300px);
 		-o-transform: translateX(-300px);
 		transform: translateX(-300px);
 		padding-top: 4em;
-		background-color: #3fa8f9;
+		background-color: #5e3ff9;
 		height: auto;
 	}
 	.resume-content img {
