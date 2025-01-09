@@ -55,166 +55,181 @@ export default {
 		},
 	],
 	projects: {
-		webber: [
-			{
-				projectName: "Global metabolomic changes associated with Polycyclic Aromatic Hydrocarbons",
-				image: "images/chem.png",
-				summary:
-					"Maternal and newborn metabolomic changes associated with urinary polycyclic aromatic hydrocarbon metabolite concentrations at delivery: an untargeted approach.",
-				preview: "https://doi.org/10.1007/s11306-023-02074-y",
-				techStack: [
-					"Untargeted metabolomics",
-					"Gestational PAH exposures",
-					"Biomarkers",
-					"Global metabolome",
-					"R"],
-				
-			},
-			{
-				projectName: "Global metabolomic alterations associated with Endocrine Disrupting Chemicals",
-				image: "images/wc.png",
-				summary:
-					"Global metabolomic alterations associated with endocrine-disrupting chemicals among pregnant individuals and newborns.",
-				preview: "https://doi.org/10.1007/s11306-023-02074-y",
-				techStack: [
-					"Biomarkers of Phenols Phthalates, DINCH",
-					"Serum metabolome",
-					"Untargeted metabolomics"],
-			},
-			{
-				projectName: "Epigenetic changes associated with Endocrine Disrupting Chemicals",
-				image: "images/wc.png",
-				summary:
-					"Gestational exposure to environmental chemicals and epigenetic alterations in the placenta and cord blood mononuclear cells.",
-				preview: "https://doi.org/10.1007/s11306-023-02074-y",
-				techStack: [
-					"Illumina 450K methylation",
-					"Global epigenome",
-					"Mono nuclear cells and placenta methylation",
-					"minfi",
-					"R"],
-			},
-		],
-		web: [
-			{
-				projectName: "Environmental justice - Pediatric asthma - Douglas County, NE",
-				image: "images/ap.png",
-				summary:
-					"Evaluated the Role of social determinants of health in differential respiratory exposure and health outcomes among children.",
-				preview: "https://doi.org/10.1186/s12889-022-14964-2",
-				techStack: [
-					"SDoH",
-					"Pediatric asthma",
-					"Environmental justice",
-					"Bayesian spatial autocorrelation",
-				],
-			},
-			{
-				projectName: "Joint effect of air pollutants - Pediatric asthma",
-				image: "images/sneez.png",
-				summary:
-					"Joint association between ambient air pollutant mixture and pediatric asthma exacerbations.",
-				preview: "https://doi.org/10.1097/EE9.0000000000000225",
-				techStack: ["Criteria pollutants", "Pollen & Mold", "gWQS", "qgcomp"],
-			},
-			{
-				projectName: "Occupational respiratory exposure - Midwestern US",
-				image: "images/farm.png",
-				summary:
-					"Prevalence and Risk Factors for Pulmonary Conditions among Farmers and Ranchers in the Central United States.",
-				preview: "https://doi.org/10.1080/1059924X.2021.2025180",
-				techStack: ["Organic dust", "Farmers/Ranchers", "Survey data", "GEE"],
-			},
-		],
-		software: [
-			{
-				projectName: "Impact of climate change on human mortality in CONUS",
-				image: "images/cc_2.jpg",
-				summary:
-					"Projections of Extreme Temperature–Related Deaths in the US.",
-				preview:
-					"https://doi.org/10.1001/jamanetworkopen.2024.34942",
-				techStack: ["Climate modeling: SSP2-4.5, SSP5-8.5", "All cause mortality", "Elderly", "Vulnerability"],
-			},
-			{
-				projectName: "Extreme temperature - climate change - North Carolina",
-				image: "images/cc.png",
-				summary:
-					"Estimating the Burden of Heat-Related Illness Morbidity Attributable to Anthropogenic Climate Change in North Carolina.",
-				preview:
-					"https://doi.org/10.1029/2022GH000636",
-				techStack: ["Anthropogenic climate change","Climate modeling: CCSM4, GFDL", "RCP4.5, RCP8.5", "GAM", "DLNM"],
-			},
-			{
-				projectName: "Heat waves - ER visits - North Carolina",
-				image: "images/hw.png",
-				summary:
-					"Evaluating the sensitivity of heat wave definitions among North Carolina physiographic regions.",
-				preview: "https://doi.org/10.3390/ijerph191610108",
-				techStack: ["HeatWaves", "GLM-NB"],
-			},
-			{
-				projectName: "Drought - Human vulnerability index - Nebraska",
-				image: "images/drou_3.jpg",
-				summary:
-					"Health vulnerability mapping for drought: a case study in a predominantly rural, agricultural state.",
-				preview: "https://doi.org/10.1088/2752-5309/ad689a",
-				techStack: ["Vulnerability index", "Drought"],
-			},
-			{
-				projectName: "Drought - Human vulnerability index - CONUS",
-				image: "images/dro.png",
-				summary:
-					"Evaluating Changes in Health Risk from Drought over the Contiguous United States.",
-				preview: "https://doi.org/10.3390/ijerph19084628",
-				techStack: ["Vulnerability index", "Spatial statistics"],
-			},
-		],
-		android: [
-			{
-				projectName: "Endocrine disrupting chemicals - Pediatric cancer - Nebraska",
-				image: "images/chem.png",
-				summary:
-					"Association between Aqueous Atrazine and Pediatric Cancer in Nebraska.",
-				preview: "https://doi.org/10.3390/w13192727",
-				techStack: ["SQL","Web APIs", "Tableau", "ArcGIS Pro", "GLN-NB"],
-			},
-			{
-				projectName: "Agrichemicals - Pediatric Cancer",
-				image: "images/wc.png",
-				summary:
-					"Geospatial Distribution of Age-Adjusted Incidence of the Three Major Types of Pediatric Cancers and Waterborne Agrichemicals in Nebraska.",
-				preview: "https://doi.org/10.1029/2021GH000419",
-				techStack: ["Atrazine & Nitrates", "GLM-NB"],
-			},
-		],
-		freelance: [
-			{
-				projectName: "Occupational injuries - Musculoskeletal disorders",
-				image: "images/pain.png",
-				summary:
-					"Factors Associated with Musculoskeletal Discomfort in Farmers and Ranchers in the U.S. Central States.",
-				preview: "https://doi.org/10.1080/1059924X.2021.1893880",
-				techStack: ["SAS", "Survey data", "GEE"],
-			},
-			{
-				projectName: "Phase-4 - Novel Cephalosporin outcomes in Solid organ transplant recipients",
-				image: "images/epi.png",
-				summary:
-					"Treatment of Pseudomonas Infection with Beta-Lactams Including Ceftolozane-Tazobactam in Solid Organ Transplant Recipients.",
-				preview: "https://doi.org/10.1080/1059924X.2021.1893880",
-				techStack: ["EPIC", "Tableau", "OneChart"],
-			},
-			{
-				projectName: "Onco-nephrology - Exploratory data analysis",
-				image: "images/kid.png",
-				summary:
-					"Incidence of Cancer among chronic kidney disease patients.",
-				preview:
-					"",
-				techStack: ["i2b2", "SQL", "EHR"],
-			},
-		],
+		webber: {
+			label: "Environmental Metabolomics",
+			data: [
+				{
+					projectName: "Global metabolomic changes associated with Polycyclic Aromatic Hydrocarbons",
+					image: "images/chem.png",
+					summary:
+						"Maternal and newborn metabolomic changes associated with urinary polycyclic aromatic hydrocarbon metabolite concentrations at delivery: an untargeted approach.",
+					preview: "https://doi.org/10.1007/s11306-023-02074-y",
+					techStack: [
+						"Untargeted metabolomics",
+						"Gestational PAH exposures",
+						"Biomarkers",
+						"Global metabolome",
+						"R"],
+					
+				},
+				{
+					projectName: "Global metabolomic alterations associated with Endocrine Disrupting Chemicals",
+					image: "images/wc.png",
+					summary:
+						"Global metabolomic alterations associated with endocrine-disrupting chemicals among pregnant individuals and newborns.",
+					preview: "https://doi.org/10.1007/s11306-023-02074-y",
+					techStack: [
+						"Biomarkers of Phenols Phthalates, DINCH",
+						"Serum metabolome",
+						"Untargeted metabolomics"],
+				},
+				{
+					projectName: "Epigenetic changes associated with Endocrine Disrupting Chemicals",
+					image: "images/wc.png",
+					summary:
+						"Gestational exposure to environmental chemicals and epigenetic alterations in the placenta and cord blood mononuclear cells.",
+					preview: "https://doi.org/10.1007/s11306-023-02074-y",
+					techStack: [
+						"Illumina 450K methylation",
+						"Global epigenome",
+						"Mono nuclear cells and placenta methylation",
+						"minfi",
+						"R"],
+				},
+			]
+		},
+		web: {
+			label: "Environmental Justice",
+			data: [
+				{
+					projectName: "Environmental justice - Pediatric asthma - Douglas County, NE",
+					image: "images/ap.png",
+					summary:
+						"Evaluated the Role of social determinants of health in differential respiratory exposure and health outcomes among children.",
+					preview: "https://doi.org/10.1186/s12889-022-14964-2",
+					techStack: [
+						"SDoH",
+						"Pediatric asthma",
+						"Environmental justice",
+						"Bayesian spatial autocorrelation",
+					],
+				},
+				{
+					projectName: "Joint effect of air pollutants - Pediatric asthma",
+					image: "images/sneez.png",
+					summary:
+						"Joint association between ambient air pollutant mixture and pediatric asthma exacerbations.",
+					preview: "https://doi.org/10.1097/EE9.0000000000000225",
+					techStack: ["Criteria pollutants", "Pollen & Mold", "gWQS", "qgcomp"],
+				},
+				{
+					projectName: "Occupational respiratory exposure - Midwestern US",
+					image: "images/farm.png",
+					summary:
+						"Prevalence and Risk Factors for Pulmonary Conditions among Farmers and Ranchers in the Central United States.",
+					preview: "https://doi.org/10.1080/1059924X.2021.2025180",
+					techStack: ["Organic dust", "Farmers/Ranchers", "Survey data", "GEE"],
+				},
+			]
+		},
+		software: {
+			label: "Climate Change",
+			data: [
+				{
+					projectName: "Impact of climate change on human mortality in CONUS",
+					image: "images/cc_2.jpg",
+					summary:
+						"Projections of Extreme Temperature–Related Deaths in the US.",
+					preview:
+						"https://doi.org/10.1001/jamanetworkopen.2024.34942",
+					techStack: ["Climate modeling: SSP2-4.5, SSP5-8.5", "All cause mortality", "Elderly", "Vulnerability"],
+				},
+				{
+					projectName: "Extreme temperature - climate change - North Carolina",
+					image: "images/cc.png",
+					summary:
+						"Estimating the Burden of Heat-Related Illness Morbidity Attributable to Anthropogenic Climate Change in North Carolina.",
+					preview:
+						"https://doi.org/10.1029/2022GH000636",
+					techStack: ["Anthropogenic climate change","Climate modeling: CCSM4, GFDL", "RCP4.5, RCP8.5", "GAM", "DLNM"],
+				},
+				{
+					projectName: "Heat waves - ER visits - North Carolina",
+					image: "images/hw.png",
+					summary:
+						"Evaluating the sensitivity of heat wave definitions among North Carolina physiographic regions.",
+					preview: "https://doi.org/10.3390/ijerph191610108",
+					techStack: ["HeatWaves", "GLM-NB"],
+				},
+				{
+					projectName: "Drought - Human vulnerability index - Nebraska",
+					image: "images/drou_3.jpg",
+					summary:
+						"Health vulnerability mapping for drought: a case study in a predominantly rural, agricultural state.",
+					preview: "https://doi.org/10.1088/2752-5309/ad689a",
+					techStack: ["Vulnerability index", "Drought"],
+				},
+				{
+					projectName: "Drought - Human vulnerability index - CONUS",
+					image: "images/dro.png",
+					summary:
+						"Evaluating Changes in Health Risk from Drought over the Contiguous United States.",
+					preview: "https://doi.org/10.3390/ijerph19084628",
+					techStack: ["Vulnerability index", "Spatial statistics"],
+				},
+			]
+		},
+		android: {
+			label: "Chemical Exposures",
+			data: [
+				{
+					projectName: "Endocrine disrupting chemicals - Pediatric cancer - Nebraska",
+					image: "images/chem.png",
+					summary:
+						"Association between Aqueous Atrazine and Pediatric Cancer in Nebraska.",
+					preview: "https://doi.org/10.3390/w13192727",
+					techStack: ["SQL","Web APIs", "Tableau", "ArcGIS Pro", "GLN-NB"],
+				},
+				{
+					projectName: "Agrichemicals - Pediatric Cancer",
+					image: "images/wc.png",
+					summary:
+						"Geospatial Distribution of Age-Adjusted Incidence of the Three Major Types of Pediatric Cancers and Waterborne Agrichemicals in Nebraska.",
+					preview: "https://doi.org/10.1029/2021GH000419",
+					techStack: ["Atrazine & Nitrates", "GLM-NB"],
+				},
+			]
+		},
+		freelance: {
+			label: "Clinical Research",
+			data: [
+				{
+					projectName: "Occupational injuries - Musculoskeletal disorders",
+					image: "images/pain.png",
+					summary:
+						"Factors Associated with Musculoskeletal Discomfort in Farmers and Ranchers in the U.S. Central States.",
+					preview: "https://doi.org/10.1080/1059924X.2021.1893880",
+					techStack: ["SAS", "Survey data", "GEE"],
+				},
+				{
+					projectName: "Phase-4 - Novel Cephalosporin outcomes in Solid organ transplant recipients",
+					image: "images/epi.png",
+					summary:
+						"Treatment of Pseudomonas Infection with Beta-Lactams Including Ceftolozane-Tazobactam in Solid Organ Transplant Recipients.",
+					preview: "https://doi.org/10.1080/1059924X.2021.1893880",
+					techStack: ["EPIC", "Tableau", "OneChart"],
+				},
+				{
+					projectName: "Onco-nephrology - Exploratory data analysis",
+					image: "images/kid.png",
+					summary:
+						"Incidence of Cancer among chronic kidney disease patients.",
+					preview:
+						"",
+					techStack: ["i2b2", "SQL", "EHR"],
+				},
+			]
+		},
 	},
 	experience: [
 		{
@@ -267,7 +282,7 @@ export default {
 			tags: ["Environmental health", "Science communication"],
 			icon: "group",
 		},
-				{
+		{
 			title: "UnitedWay of Midlands",
 			duration: "March 2017 - September 2017",
 			subtitle: "Student researcher",
@@ -277,7 +292,7 @@ export default {
 			tags: ["Food deserts", "Environmental justice"],
 			icon: "group",
 		},
-				{
+		{
 			title: "Bioclinica - For Merck KGaA",
 			duration: "December 2014 - November 2016",
 			subtitle: "Scientist - Pharmacoepidemiology",
@@ -319,7 +334,7 @@ export default {
 			],
 			icon: "graduation-cap",
 		},
-				{
+		{
 			title: "Doctor of Pharmacy",
 			duration: "",
 			subtitle: "Rajiv Gandhi University of Health Sciences, India",
@@ -398,6 +413,3 @@ export default {
 				"Compiled by Jagadeesh Puvvula.",
 				"&copy; No Copyrights declared."
 			],
-		},
-	],
-};
