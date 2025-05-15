@@ -2,6 +2,7 @@ export default {
 	bio: {
 		about: {
 			text: [
+				"Environmental epidemiologist with expertise in quantifying health impacts of environmental exposures.",
 			],
 		},
 		contact: {
