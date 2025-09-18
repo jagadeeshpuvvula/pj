@@ -211,8 +211,7 @@ export default {
 				image: "images/kid.png",
 				summary:
 					"Incidence of Cancer among chronic kidney disease patients.",
-				preview:
-					"",
+				preview: "",
 				techStack: ["i2b2", "SQL", "EHR"],
 			},
 		],
