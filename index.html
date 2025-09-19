@@ -110,6 +110,23 @@
             margin-left: 300px;
             flex: 1;
             background: #f8f9fa;
+            position: relative;
+        }
+        /* Brain watermark background */
+        #colorlib-main::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 300px;
+            width: calc(100% - 300px);
+            height: 100vh;
+            background-image: url('https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/6e459153-4200-4c2f-b140-4db95d0a65be.png');
+            background-size: 600px auto;
+            background-repeat: no-repeat;
+            background-position: center center;
+            opacity: 0.04;
+            pointer-events: none;
+            z-index: -1;
         }
         .colorlib-narrow-content {
             max-width: 1000px;
@@ -476,6 +493,10 @@
             #colorlib-main {
                 margin-left: 0;
             }
+            #colorlib-main::before {
+                left: 0;
+                width: 100%;
+            }
             .colorlib-narrow-content {
                 padding: 0 1rem;
             }
@@ -517,6 +538,9 @@
             }
             #colorlib-main {
                 margin-left: 0;
+            }
+            #colorlib-main::before {
+                display: none;
             }
             body {
                 font-size: 12px;
