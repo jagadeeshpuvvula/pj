@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Jagadeesh Puvvula - Environmental Epidemiologist</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Academic portfolio of Dr. Jagadeesh Puvvula - Environmental Epidemiologist" />
+    <meta name="description" content="Academic portfolio of Jagadeesh Puvvula - Environmental Epidemiologist" />
     <meta name="keywords" content="environmental epidemiology,biostatistics,public health,research,academic" />
     <meta name="author" content="Jagadeesh Puvvula" />
     
@@ -13,13 +13,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/images/logo.png">
+    <link rel="icon" type="image/png" href="images/logo.png">
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700&display=swap" rel="stylesheet">
     
-    <!-- Academic CSS -->
     <style>
         /* CSS Reset and Base Styles */
         * {
@@ -118,6 +117,11 @@
             background: rgba(255,255,255,0.15);
             color: white;
             transform: translateX(5px);
+        }
+
+        /* Mobile Toggle */
+        .js-colorlib-nav-toggle {
+            display: none;
         }
 
         /* Main Content Area */
@@ -682,7 +686,7 @@
                 <section id="about" class="colorlib-about" data-section="about">
                     <div class="colorlib-narrow-content">
                         <div class="section-header">
-                            <div class="intro-greeting">Welcome</div>
+                            <div class="intro-greeting">Welcome 👋</div>
                             <h1>About Me</h1>
                         </div>
                         <div class="about-desc animate-box">
@@ -800,7 +804,7 @@
                 <!-- Academic Footer -->
                 <footer class="academic-footer">
                     <div class="colorlib-narrow-content">
-                        <p>&copy; 2024 Dr. Jagadeesh Puvvula. All rights reserved.</p>
+                        <p>&copy; 2024 Jagadeesh Puvvula. All rights reserved.</p>
                         <p>Environmental Epidemiologist | University of Pennsylvania</p>
                     </div>
                 </footer>
@@ -808,223 +812,105 @@
         </div>
     </div>
 
-    <!-- JavaScript -->
-    <script type="module">
-        // Import data (you'll need to adjust the path to your db.js file)
-        import portfolioData from './db.js';
-        
-        // Initialize the portfolio when the page loads
-        document.addEventListener('DOMContentLoaded', function() {
-            initializePortfolio();
-            setupAccordion();
-            setupSmoothScrolling();
-            setupActiveNavigation();
-        });
-
-        function initializePortfolio() {
-            populateSkills();
-            populateProjects();
-            populateExperience();
-            populateEducation();
-            addAnimations();
-        }
-
-        function populateSkills() {
-            const container = document.getElementById('skills-container');
-            portfolioData.skills.forEach((skill, index) => {
-                const skillElement = document.createElement('div');
-                skillElement.className = 'skill-item animate-box';
-                skillElement.style.animationDelay = `${index * 0.1}s`;
-                skillElement.innerHTML = `
-                    <h3>${skill.title}</h3>
-                    <p>${skill.skillName}</p>
-                    <div class="skill-progress">
-                        <div class="skill-progress-bar" style="width: ${skill.percentage}%"></div>
-                    </div>
-                `;
-                container.appendChild(skillElement);
-            });
-        }
-
-        function populateProjects() {
-            populateProjectSection('webber-projects', portfolioData.projects.webber);
-            populateProjectSection('web-projects', portfolioData.projects.web);
-            populateProjectSection('software-projects', portfolioData.projects.software);
-            populateProjectSection('android-projects', portfolioData.projects.android);
-            populateProjectSection('freelance-projects', portfolioData.projects.freelance);
-        }
-
-        function populateProjectSection(containerId, projects) {
-            const container = document.getElementById(containerId);
-            if (!container || !projects) return;
-            
-            container.innerHTML = '';
-            
-            projects.forEach((project, index) => {
-                const projectElement = document.createElement('li');
-                projectElement.innerHTML = `
-                    <div class="project-item">
-                        ${project.image ? `<img src="${project.image}" alt="${project.projectName}" class="project-image" onerror="this.style.display='none'">` : ''}
-                        <h3>${project.projectName}</h3>
-                        <p>${project.summary}</p>
-                        <div class="tech-stack">
-                            ${project.techStack.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
-                        </div>
-                        ${project.preview ? `<a href="${project.preview}" target="_blank" class="project-link"><i class="fa fa-external-link"></i> View Publication</a>` : ''}
-                    </div>
-                `;
-                container.appendChild(projectElement);
-            });
-        }
-
-        function populateExperience() {
-            const container = document.getElementById('experience-container');
-            portfolioData.experience.forEach((exp, index) => {
-                const expElement = document.createElement('div');
-                expElement.className = 'timeline-item animate-box';
-                expElement.style.animationDelay = `${index * 0.1}s`;
-                expElement.innerHTML = `
-                    <h3>${exp.title}</h3>
-                    ${exp.duration ? `<div class="duration">${exp.duration}</div>` : ''}
-                    <div class="subtitle">${exp.subtitle}</div>
-                    <div class="details">
-                        <ul>
-                            ${exp.details.map(detail => `<li>${detail}</li>`).join('')}
-                        </ul>
-                    </div>
-                    <div class="tags">
-                        ${exp.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
-                    </div>
-                `;
-                container.appendChild(expElement);
-            });
-        }
-
-        function populateEducation() {
-            const container = document.getElementById('education-container');
-            portfolioData.education.forEach((edu, index) => {
-                const eduElement = document.createElement('div');
-                eduElement.className = 'timeline-item animate-box';
-                eduElement.style.animationDelay = `${index * 0.1}s`;
-                eduElement.innerHTML = `
-                    <h3>${edu.title}</h3>
-                    <div class="subtitle">${edu.subtitle}</div>
-                    <div class="details">
-                        <ul>
-                            ${edu.details.map(detail => `<li>${detail}</li>`).join('')}
-                        </ul>
-                    </div>
-                    <div class="tags">
-                        ${edu.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
-                    </div>
-                `;
-                container.appendChild(eduElement);
-            });
-        }
-
-        function setupAccordion() {
-            const accordionLinks = document.querySelectorAll('#accordion .link');
-            
-            accordionLinks.forEach(link => {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    
-                    const parentLi = this.parentElement;
-                    const submenu = parentLi.querySelector('.submenu');
-                    const chevron = this.querySelector('.fa');
-                    const isActive = parentLi.classList.contains('active');
-                    
-                    // Close all other accordions
-                    accordionLinks.forEach(otherLink => {
-                        const otherParent = otherLink.parentElement;
-                        const otherSubmenu = otherParent.querySelector('.submenu');
-                        const otherChevron = otherLink.querySelector('.fa');
-                        
-                        if (otherParent !== parentLi) {
-                            otherParent.classList.remove('active');
-                            otherChevron.classList.remove('fa-chevron-up');
-                            otherChevron.classList.add('fa-chevron-down');
-                        }
-                    });
-                    
-                    // Toggle current accordion
-                    if (isActive) {
-                        parentLi.classList.remove('active');
-                        chevron.classList.remove('fa-chevron-up');
-                        chevron.classList.add('fa-chevron-down');
-                    } else {
-                        parentLi.classList.add('active');
-                        chevron.classList.remove('fa-chevron-down');
-                        chevron.classList.add('fa-chevron-up');
-                    }
-                });
-            });
-        }
-
-        function setupSmoothScrolling() {
-            const navLinks = document.querySelectorAll('#colorlib-main-menu a[href^="#"]');
-            navLinks.forEach(link => {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    const targetId = this.getAttribute('href').substring(1);
-                    const targetSection = document.getElementById(targetId);
-                    if (targetSection) {
-                        targetSection.scrollIntoView({
-                            behavior: 'smooth',
-                            block: 'start'
-                        });
-                    }
-                });
-            });
-        }
-
-        function setupActiveNavigation() {
-            const sections = document.querySelectorAll('section[id]');
-            const navLinks = document.querySelectorAll('#colorlib-main-menu a[href^="#"]');
-            
-            function updateActiveNav() {
-                let current = '';
-                sections.forEach(section => {
-                    const sectionTop = section.offsetTop;
-                    const sectionHeight = section.clientHeight;
-                    if (window.pageYOffset >= sectionTop - 200) {
-                        current = section.getAttribute('id');
-                    }
-                });
-                
-                navLinks.forEach(link => {
-                    link.classList.remove('active');
-                    if (link.getAttribute('href') === `#${current}`) {
-                        link.classList.add('active');
-                    }
-                });
-            }
-            
-            window.addEventListener('scroll', updateActiveNav);
-            updateActiveNav(); // Initialize on page load
-        }
-
-        function addAnimations() {
-            const animateElements = document.querySelectorAll('.animate-box');
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('animated');
-                    }
-                });
-            }, {
-                threshold: 0.1
-            });
-            
-            animateElements.forEach(element => {
-                observer.observe(element);
-            });
-        }
-
-        // Dark mode toggle function (if needed)
-        window.enableDarkMode = function() {
-            document.body.classList.toggle('dark-mode');
-        };
-    </script>
-</body>
-</html>
+    <script>
+        // Portfolio Data - Embedded directly in the HTML
+        const portfolioData = {
+            bio: {
+                about: {
+                    text: [
+                        "Environmental epidemiologist with expertise in quantifying health impacts of environmental exposures.",
+                    ],
+                },
+                contact: {
+                    text: [
+                        "Feel free to connect with me on Twitter, LinkedIn or ResearchGate from below",
+                    ],
+                },
+            },
+            skills: [
+                {
+                    title: "Applied skills",
+                    skillName: "Applied epidemiology and biostatistics",
+                    color: "6",
+                    percentage: "90",
+                },
+                {
+                    title: "Applied statistical methods",
+                    skillName: "Time series, high-dimension (metabolome, epigenome, and microbiome), correlated, spatial, hierarchical data analysis",
+                    color: "6",
+                    percentage: "85",
+                },
+                {
+                    title: "Special topics",
+                    skillName: "Causal mediation, environmental mixtures, susceptibility/vulnerability windows",
+                    color: "6",
+                    percentage: "80",
+                },
+                {
+                    title: "Languages",
+                    skillName: "R, Python, Linux, Bash, JavaScript ",
+                    color: "1",
+                    percentage: "80",
+                },
+                {
+                    title: "Softwares",
+                    skillName: "Tableau, ArcGIS Pro, Endnote",
+                    color: "1",
+                    percentage: "40",
+                },
+                {
+                    title: "Version Control",
+                    skillName: "Git, Slurm, Docker",
+                    color: "1",
+                    percentage: "75",
+                },
+                {
+                    title: "Editor",
+                    skillName: "VS Code",
+                    color: "1",
+                    percentage: "55",
+                },
+            ],
+            projects: {
+                webber: [
+                    {
+                        projectName: "Global metabolomic changes associated with Polycyclic Aromatic Hydrocarbons",
+                        image: "images/chem.png",
+                        summary: "Maternal and newborn metabolomic changes associated with urinary polycyclic aromatic hydrocarbon metabolite concentrations at delivery: an untargeted approach.",
+                        preview: "https://doi.org/10.1007/s11306-023-02074-y",
+                        techStack: [
+                            "Untargeted metabolomics",
+                            "Gestational PAH exposures",
+                            "Biomarkers",
+                            "Global metabolome",
+                            "R"
+                        ],
+                    },
+                    {
+                        projectName: "Global metabolomic alterations associated with Endocrine Disrupting Chemicals",
+                        image: "images/wc.png",
+                        summary: "Global metabolomic alterations associated with endocrine-disrupting chemicals among pregnant individuals and newborns.",
+                        preview: "https://doi.org/10.1007/s11306-023-02074-y",
+                        techStack: [
+                            "Biomarkers of Phenols Phthalates, DINCH",
+                            "Serum metabolome",
+                            "Untargeted metabolomics"
+                        ],
+                    },
+                    {
+                        projectName: "Epigenetic changes associated with Endocrine Disrupting Chemicals",
+                        image: "images/wc.png",
+                        summary: "Gestational exposure to environmental chemicals and epigenetic alterations in the placenta and cord blood mononuclear cells.",
+                        preview: "https://doi.org/10.1007/s11306-023-02074-y",
+                        techStack: [
+                            "Illumina 450K methylation",
+                            "Global epigenome",
+                            "Mono nuclear cells and placenta methylation",
+                            "minfi",
+                            "R"
+                        ],
+                    },
+                ],
+                web: [
+                    {
+                        projectName: "Environmental justice - Pediatric asth
