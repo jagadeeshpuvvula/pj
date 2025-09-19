@@ -1,4 +1,5 @@
-export default {
+// Portfolio data - compatible with regular script loading
+window.default = {
 	bio: {
 		about: {
 			text: [
