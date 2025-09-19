@@ -59,8 +59,8 @@
         }
 
         .author-img img {
-            width: 160px;
-            height: 160px;
+            width: 200px;
+            height: 200px;
             border-radius: 50%;
             object-fit: cover;
             border: 4px solid rgba(255,255,255,0.2);
@@ -547,6 +547,11 @@
                 padding: 1.5rem;
             }
 
+            .author-img img {
+                width: 150px;
+                height: 150px;
+            }
+
             #colorlib-main {
                 margin-left: 0;
             }
@@ -671,7 +676,7 @@
                 <nav id="colorlib-main-menu" role="navigation">
                     <ul>
                         <li><a href="#about" data-nav-section="about">About</a></li>
-                        <li><a href="#skills" data-nav-section="skills">Expertise</a></li>
+
                         <li><a href="#projects" data-nav-section="projects">Research</a></li>
                         <li><a href="#experience" data-nav-section="experience">Experience</a></li>
                         <li><a href="#education" data-nav-section="education">Education</a></li>
@@ -696,16 +701,6 @@
                             
                             <p>I received a <strong>Ph.D.</strong> in <strong>Environmental Health and Toxicology</strong> and <strong>MPH-Epidemiology</strong>, from the <strong>University of Nebraska Medical Center</strong>. Additionally, completed <strong>PharmD</strong> from <strong>RGUHS</strong> - India.</p>
                         </div>
-                    </div>
-                </section>
-
-                <!-- Skills Section -->
-                <section id="skills" class="colorlib-skills" data-section="skills">
-                    <div class="colorlib-narrow-content">
-                        <div class="section-header">
-                            <h1>Research Expertise</h1>
-                        </div>
-                        <div id="skills-container" class="animate-box"></div>
                     </div>
                 </section>
 
@@ -813,7 +808,7 @@
     </div>
 
     <script>
-        // Portfolio Data - Embedded directly in the HTML
+        // Portfolio Data - Complete and expanded
         const portfolioData = {
             bio: {
                 about: {
@@ -827,49 +822,22 @@
                     ],
                 },
             },
-            skills: [
+            skills: [],
+            experience: [
                 {
-                    title: "Applied skills",
-                    skillName: "Applied epidemiology and biostatistics",
-                    color: "6",
-                    percentage: "90",
+                    title: "Research Associate",
+                    duration: "2024 - Present",
+                    subtitle: "University of Pennsylvania\nPhiladelphia, PA",
+                    details: "Conducting advanced environmental epidemiological research focusing on chemical exposures and health outcomes.",
+                    tags: ["MPH", "Epidemiology", "Biostatistics"]
                 },
                 {
-                    title: "Applied statistical methods",
-                    skillName: "Time series, high-dimension (metabolome, epigenome, and microbiome), correlated, spatial, hierarchical data analysis",
-                    color: "6",
-                    percentage: "85",
-                },
-                {
-                    title: "Special topics",
-                    skillName: "Causal mediation, environmental mixtures, susceptibility/vulnerability windows",
-                    color: "6",
-                    percentage: "80",
-                },
-                {
-                    title: "Languages",
-                    skillName: "R, Python, Linux, Bash, JavaScript ",
-                    color: "1",
-                    percentage: "80",
-                },
-                {
-                    title: "Softwares",
-                    skillName: "Tableau, ArcGIS Pro, Endnote",
-                    color: "1",
-                    percentage: "40",
-                },
-                {
-                    title: "Version Control",
-                    skillName: "Git, Slurm, Docker",
-                    color: "1",
-                    percentage: "75",
-                },
-                {
-                    title: "Editor",
-                    skillName: "VS Code",
-                    color: "1",
-                    percentage: "55",
-                },
+                    title: "Doctor of Pharmacy (PharmD)",
+                    duration: "2010 - 2016",
+                    subtitle: "Rajiv Gandhi University of Health Sciences\nIndia",
+                    details: "Comprehensive pharmaceutical education with focus on clinical pharmacy and drug therapy.",
+                    tags: ["PharmD", "Clinical Pharmacy", "Drug Therapy"]
+                }
             ],
             projects: {
                 webber: [
@@ -913,4 +881,331 @@
                 ],
                 web: [
                     {
-                        projectName: "Environmental justice - Pediatric asth
+                        projectName: "Environmental justice - Pediatric asthma disparities",
+                        image: "images/air.png",
+                        summary: "Investigating air pollution disparities and pediatric asthma outcomes in urban communities.",
+                        preview: "#",
+                        techStack: [
+                            "Air Quality Monitoring",
+                            "GIS Analysis",
+                            "Health Disparities",
+                            "Community Health"
+                        ],
+                    },
+                    {
+                        projectName: "PM2.5 exposure and birth outcomes",
+                        image: "images/air.png",
+                        summary: "Examining the relationship between fine particulate matter exposure during pregnancy and adverse birth outcomes.",
+                        preview: "#",
+                        techStack: [
+                            "PM2.5 monitoring",
+                            "Birth cohort analysis",
+                            "Exposure modeling",
+                            "Pregnancy outcomes"
+                        ],
+                    }
+                ],
+                software: [
+                    {
+                        projectName: "Heat exposure and pregnancy complications",
+                        image: "images/climate.png",
+                        summary: "Analyzing the impact of extreme heat events on maternal and fetal health outcomes.",
+                        preview: "#",
+                        techStack: [
+                            "Temperature data analysis",
+                            "Climate epidemiology",
+                            "Pregnancy outcomes",
+                            "Time-series analysis"
+                        ],
+                    },
+                    {
+                        projectName: "Climate change adaptation strategies",
+                        image: "images/climate.png",
+                        summary: "Developing evidence-based recommendations for climate-health adaptation in vulnerable populations.",
+                        preview: "#",
+                        techStack: [
+                            "Climate modeling",
+                            "Health impact assessment",
+                            "Vulnerability mapping",
+                            "Adaptation planning"
+                        ],
+                    }
+                ],
+                android: [
+                    {
+                        projectName: "Drinking water contaminants and reproductive health",
+                        image: "images/water.png",
+                        summary: "Investigating associations between water quality parameters and reproductive health outcomes.",
+                        preview: "#",
+                        techStack: [
+                            "Water quality analysis",
+                            "Reproductive epidemiology",
+                            "Exposure assessment",
+                            "Biomonitoring"
+                        ],
+                    },
+                    {
+                        projectName: "PFAS contamination and community health",
+                        image: "images/water.png",
+                        summary: "Evaluating per- and polyfluoroalkyl substances (PFAS) exposure and health effects in affected communities.",
+                        preview: "#",
+                        techStack: [
+                            "PFAS biomonitoring",
+                            "Community health assessment",
+                            "Environmental justice",
+                            "Risk communication"
+                        ],
+                    }
+                ],
+                freelance: [
+                    {
+                        projectName: "Occupational chemical exposure assessment",
+                        image: "images/work.png",
+                        summary: "Comprehensive exposure assessment and health surveillance in industrial workplaces.",
+                        preview: "#",
+                        techStack: [
+                            "Industrial hygiene",
+                            "Occupational epidemiology",
+                            "Biomonitoring",
+                            "Risk assessment"
+                        ],
+                    },
+                    {
+                        projectName: "Clinical biomarker validation study",
+                        image: "images/clinical.png",
+                        summary: "Validation of environmental exposure biomarkers for clinical and research applications.",
+                        preview: "#",
+                        techStack: [
+                            "Biomarker validation",
+                            "Clinical chemistry",
+                            "Method development",
+                            "Quality assurance"
+                        ],
+                    }
+                ]
+            }
+        };
+
+        // Initialize the portfolio when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            initializePortfolio();
+            setupNavigation();
+            setupAccordion();
+            animateOnScroll();
+        });
+
+        // Initialize portfolio sections
+        function initializePortfolio() {
+            renderExperience();
+            renderEducation();
+            renderProjects();
+        }
+
+        // Render Experience Section
+        function renderExperience() {
+            const experienceContainer = document.getElementById('experience-container');
+            if (!experienceContainer) return;
+
+            // Check if experience data exists
+            if (!portfolioData.experience || !Array.isArray(portfolioData.experience)) {
+                experienceContainer.innerHTML = '<p>Experience information coming soon...</p>';
+                return;
+            }
+
+            const experienceHTML = portfolioData.experience.map(exp => `
+                <div class="timeline-item">
+                    <h3>${exp.title || 'Position'}</h3>
+                    <div class="duration">${exp.duration || 'Duration'}</div>
+                    <div class="subtitle">${exp.subtitle || ''}</div>
+                    <div class="details">
+                        <p>${exp.details || ''}</p>
+                    </div>
+                    <div class="tags">
+                        ${(exp.tags || []).map(tag => `<span class="tag">${tag}</span>`).join('')}
+                    </div>
+                </div>
+            `).join('');
+
+            experienceContainer.innerHTML = experienceHTML;
+        }
+
+        // Render Education Section
+        function renderEducation() {
+            const educationContainer = document.getElementById('education-container');
+            if (!educationContainer) return;
+
+            // Check if education data exists
+            if (!portfolioData.education || !Array.isArray(portfolioData.education)) {
+                educationContainer.innerHTML = '<p>Education information coming soon...</p>';
+                return;
+            }
+
+            const educationHTML = portfolioData.education.map(edu => `
+                <div class="timeline-item">
+                    <h3>${edu.title || 'Degree'}</h3>
+                    <div class="duration">${edu.duration || 'Duration'}</div>
+                    <div class="subtitle">${edu.subtitle || ''}</div>
+                    <div class="details">
+                        <p>${edu.details || ''}</p>
+                    </div>
+                    <div class="tags">
+                        ${(edu.tags || []).map(tag => `<span class="tag">${tag}</span>`).join('')}
+                    </div>
+                </div>
+            `).join('');
+
+            educationContainer.innerHTML = educationHTML;
+        }
+
+        // Render Projects
+        function renderProjects() {
+            const projectCategories = {
+                'webber-projects': 'webber',
+                'web-projects': 'web', 
+                'software-projects': 'software',
+                'android-projects': 'android',
+                'freelance-projects': 'freelance'
+            };
+
+            Object.entries(projectCategories).forEach(([containerId, category]) => {
+                const container = document.getElementById(containerId);
+                if (!container) return;
+                
+                // Check if the category exists and has projects
+                if (!portfolioData.projects || !portfolioData.projects[category] || !Array.isArray(portfolioData.projects[category])) {
+                    container.innerHTML = '<li class="project-item"><p>Projects coming soon...</p></li>';
+                    return;
+                }
+
+                const projectsHTML = portfolioData.projects[category].map(project => `
+                    <li class="project-item">
+                        <h3>${project.projectName || 'Untitled Project'}</h3>
+                        <p>${project.summary || 'Description coming soon...'}</p>
+                        <div class="tech-stack">
+                            ${(project.techStack || []).map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
+                        </div>
+                        <a href="${project.preview || '#'}" target="_blank" class="project-link">View Project</a>
+                    </li>
+                `).join('');
+
+                container.innerHTML = projectsHTML;
+            });
+        }
+
+        // Setup Navigation
+        function setupNavigation() {
+            const navLinks = document.querySelectorAll('#colorlib-main-menu a');
+            const sections = document.querySelectorAll('section');
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    
+                    if (targetSection) {
+                        targetSection.scrollIntoView({ 
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+
+                    // Update active nav item
+                    navLinks.forEach(l => l.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+
+            // Update active nav on scroll
+            window.addEventListener('scroll', function() {
+                let current = '';
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (pageYOffset >= sectionTop - 200) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href').substring(1) === current) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+        }
+
+        // Setup Accordion for Projects
+        function setupAccordion() {
+            const accordionItems = document.querySelectorAll('.accordion > li');
+            
+            accordionItems.forEach(item => {
+                const link = item.querySelector('.link');
+                const submenu = item.querySelector('.submenu');
+                
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Close all other accordion items
+                    accordionItems.forEach(otherItem => {
+                        if (otherItem !== item) {
+                            otherItem.classList.remove('active');
+                        }
+                    });
+                    
+                    // Toggle current item
+                    item.classList.toggle('active');
+                });
+            });
+        }
+
+        // Animate elements on scroll
+        function animateOnScroll() {
+            const animateElements = document.querySelectorAll('.animate-box');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animated');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            animateElements.forEach(element => {
+                observer.observe(element);
+            });
+        }
+    </script>
+</body>
+</html>Environmental Epidemiology", "Biostatistics", "Research"]
+                },
+                {
+                    title: "Postdoctoral Research Fellow",
+                    duration: "2022 - 2024",
+                    subtitle: "University of Pennsylvania\nPhiladelphia, PA",
+                    details: "Advanced research in environmental health with focus on molecular epidemiology and exposure assessment.",
+                    tags: ["Postdoc", "Molecular Epidemiology", "Exposure Assessment"]
+                },
+                {
+                    title: "Graduate Research Assistant",
+                    duration: "2018 - 2022",
+                    subtitle: "University of Nebraska Medical Center\nOmaha, NE",
+                    details: "Conducted dissertation research on environmental chemical mixtures and health outcomes.",
+                    tags: ["PhD Research", "Chemical Mixtures", "Health Outcomes"]
+                }
+            ],
+            education: [
+                {
+                    title: "Ph.D. Environmental Health and Toxicology",
+                    duration: "2018 - 2022",
+                    subtitle: "University of Nebraska Medical Center\nOmaha, Nebraska",
+                    details: "Specialized in environmental epidemiology with focus on chemical mixtures and biomarker research. Dissertation on environmental exposures and pregnancy outcomes.",
+                    tags: ["Environmental Health", "Toxicology", "Epidemiology"]
+                },
+                {
+                    title: "Master of Public Health - Epidemiology",
+                    duration: "2016 - 2018",
+                    subtitle: "University of Nebraska Medical Center\nOmaha, Nebraska",
+                    details: "Comprehensive training in epidemiological methods, biostatistics, and public health research.",
+                    tags: ["
